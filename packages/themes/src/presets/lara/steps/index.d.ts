@@ -1,6 +1,6 @@
-import type { StepsTokenSections } from '@primeuix/themes/types/steps';
+import type { StepsTokenSections } from '@openuxkit/themes/types/steps';
 
-export * from '@primeuix/themes/types/steps';
+export * from '@openuxkit/themes/types/steps';
 
 declare const root: StepsTokenSections.Root;
 declare const separator: StepsTokenSections.Separator;

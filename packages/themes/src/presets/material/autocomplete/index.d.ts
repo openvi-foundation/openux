@@ -1,7 +1,7 @@
-import type { StyleOptions } from '@primeuix/styled';
-import type { AutoCompleteTokenSections } from '@primeuix/themes/types/autocomplete';
+import type { StyleOptions } from '@openuxkit/styled';
+import type { AutoCompleteTokenSections } from '@openuxkit/themes/types/autocomplete';
 
-export * from '@primeuix/themes/types/autocomplete';
+export * from '@openuxkit/themes/types/autocomplete';
 
 declare const root: AutoCompleteTokenSections.Root;
 declare const overlay: AutoCompleteTokenSections.Overlay;

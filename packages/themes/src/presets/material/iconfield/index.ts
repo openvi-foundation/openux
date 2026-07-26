@@ -1,4 +1,4 @@
-import type { IconFieldDesignTokens, IconFieldTokenSections } from '@primeuix/themes/types/iconfield';
+import type { IconFieldDesignTokens, IconFieldTokenSections } from '@openuxkit/themes/types/iconfield';
 
 export const icon: IconFieldTokenSections.Icon = {
     color: '{form.field.icon.color}'

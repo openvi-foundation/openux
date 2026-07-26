@@ -1,4 +1,4 @@
-import type { TreeTableDesignTokens, TreeTableTokenSections } from '@primeuix/themes/types/treetable';
+import type { TreeTableDesignTokens, TreeTableTokenSections } from '@openuxkit/themes/types/treetable';
 
 export const root: TreeTableTokenSections.Root = {
     transitionDuration: '{transition.duration}'

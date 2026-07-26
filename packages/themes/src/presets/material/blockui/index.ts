@@ -1,4 +1,4 @@
-import type { BlockUIDesignTokens, BlockUITokenSections } from '@primeuix/themes/types/blockui';
+import type { BlockUIDesignTokens, BlockUITokenSections } from '@openuxkit/themes/types/blockui';
 
 export const root: BlockUITokenSections.Root = {
     borderRadius: '{content.border.radius}'

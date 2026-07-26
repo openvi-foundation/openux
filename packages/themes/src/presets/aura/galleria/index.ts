@@ -1,4 +1,4 @@
-import type { GalleriaDesignTokens, GalleriaTokenSections } from '@primeuix/themes/types/galleria';
+import type { GalleriaDesignTokens, GalleriaTokenSections } from '@openuxkit/themes/types/galleria';
 
 export const root: GalleriaTokenSections.Root = {
     borderWidth: '1px',

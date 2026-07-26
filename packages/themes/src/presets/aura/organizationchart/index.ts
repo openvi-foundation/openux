@@ -1,4 +1,4 @@
-import type { OrganizationChartDesignTokens, OrganizationChartTokenSections } from '@primeuix/themes/types/organizationchart';
+import type { OrganizationChartDesignTokens, OrganizationChartTokenSections } from '@openuxkit/themes/types/organizationchart';
 
 export const root: OrganizationChartTokenSections.Root = {
     gutter: '0.75rem',

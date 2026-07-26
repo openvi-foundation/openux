@@ -1,5 +1,5 @@
 /**
- * @@primeuix/mcp - Shared core for PrimeVue and PrimeNG MCP servers
+ * @@openuxkit/mcp - Shared core for PrimeVue and PrimeNG MCP servers
  *
  * This package provides a factory function to create MCP servers for Prime UI libraries.
  * It handles all the common functionality: component tools, guide tools, search tools, etc.

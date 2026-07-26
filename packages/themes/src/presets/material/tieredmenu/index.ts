@@ -1,4 +1,4 @@
-import type { TieredMenuDesignTokens, TieredMenuTokenSections } from '@primeuix/themes/types/tieredmenu';
+import type { TieredMenuDesignTokens, TieredMenuTokenSections } from '@openuxkit/themes/types/tieredmenu';
 
 export const root: TieredMenuTokenSections.Root = {
     background: '{content.background}',

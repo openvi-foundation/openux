@@ -1,4 +1,4 @@
-import { EventBus } from '@primeuix/utils/eventbus';
+import { EventBus } from '@openuxkit/utils/eventbus';
 
 const LocaleService = EventBus();
 

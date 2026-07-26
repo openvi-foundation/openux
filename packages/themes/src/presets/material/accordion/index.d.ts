@@ -1,7 +1,7 @@
-import type { StyleOptions } from '@primeuix/styled';
-import type { AccordionTokenSections } from '@primeuix/themes/types/accordion';
+import type { StyleOptions } from '@openuxkit/styled';
+import type { AccordionTokenSections } from '@openuxkit/themes/types/accordion';
 
-export * from '@primeuix/themes/types/accordion';
+export * from '@openuxkit/themes/types/accordion';
 
 declare const root: AccordionTokenSections.Root;
 declare const panel: AccordionTokenSections.Panel;

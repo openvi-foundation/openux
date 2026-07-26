@@ -1,4 +1,4 @@
-import type { DividerDesignTokens, DividerTokenSections } from '@primeuix/themes/types/divider';
+import type { DividerDesignTokens, DividerTokenSections } from '@openuxkit/themes/types/divider';
 
 export const root: DividerTokenSections.Root = {
     borderColor: '{content.border.color}'

@@ -1,6 +1,6 @@
-import type { TimelineTokenSections } from '@primeuix/themes/types/timeline';
+import type { TimelineTokenSections } from '@openuxkit/themes/types/timeline';
 
-export * from '@primeuix/themes/types/timeline';
+export * from '@openuxkit/themes/types/timeline';
 
 declare const event: TimelineTokenSections.Event;
 declare const horizontal: TimelineTokenSections.Horizontal;

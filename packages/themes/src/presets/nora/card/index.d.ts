@@ -1,6 +1,6 @@
-import type { CardTokenSections } from '@primeuix/themes/types/card';
+import type { CardTokenSections } from '@openuxkit/themes/types/card';
 
-export * from '@primeuix/themes/types/card';
+export * from '@openuxkit/themes/types/card';
 
 declare const root: CardTokenSections.Root;
 declare const body: CardTokenSections.Body;

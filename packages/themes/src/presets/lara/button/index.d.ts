@@ -1,6 +1,6 @@
-import type { ButtonTokenSections } from '@primeuix/themes/types/button';
+import type { ButtonTokenSections } from '@openuxkit/themes/types/button';
 
-export * from '@primeuix/themes/types/button';
+export * from '@openuxkit/themes/types/button';
 
 declare const root: ButtonTokenSections.Root;
 declare const colorScheme: ButtonTokenSections.ColorScheme;

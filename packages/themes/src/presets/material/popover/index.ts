@@ -1,4 +1,4 @@
-import type { PopoverDesignTokens, PopoverTokenSections } from '@primeuix/themes/types/popover';
+import type { PopoverDesignTokens, PopoverTokenSections } from '@openuxkit/themes/types/popover';
 
 export const root: PopoverTokenSections.Root = {
     background: '{overlay.popover.background}',

@@ -1,5 +1,5 @@
 /**
- * @primeuix/mcp - Example/code snippet tool factories
+ * @openuxkit/mcp - Example/code snippet tool factories
  */
 
 import type { McpServer } from '@modelcontextprotocol/sdk/server/mcp.js';

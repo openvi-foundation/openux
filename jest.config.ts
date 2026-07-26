@@ -8,6 +8,6 @@ export default {
     modulePathIgnorePatterns: ['<rootDir>/packages/.*/dist', '<rootDir>/submodules/.*'],
     moduleFileExtensions: [...defaults.moduleFileExtensions, 'mts'],
     moduleNameMapper: {
-        '^@primeuix/(.*)/(.*)$': '<rootDir>/packages/$1/src/$2'
+        '^@openuxkit/(.*)/(.*)$': '<rootDir>/packages/$1/src/$2'
     }
 } satisfies Config;

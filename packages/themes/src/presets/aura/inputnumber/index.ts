@@ -1,4 +1,4 @@
-import type { InputNumberDesignTokens, InputNumberTokenSections } from '@primeuix/themes/types/inputnumber';
+import type { InputNumberDesignTokens, InputNumberTokenSections } from '@openuxkit/themes/types/inputnumber';
 
 export const root: InputNumberTokenSections.Root = {
     transitionDuration: '{transition.duration}'

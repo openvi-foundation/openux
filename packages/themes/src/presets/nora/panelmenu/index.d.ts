@@ -1,6 +1,6 @@
-import type { PanelMenuTokenSections } from '@primeuix/themes/types/panelmenu';
+import type { PanelMenuTokenSections } from '@openuxkit/themes/types/panelmenu';
 
-export * from '@primeuix/themes/types/panelmenu';
+export * from '@openuxkit/themes/types/panelmenu';
 
 declare const root: PanelMenuTokenSections.Root;
 declare const panel: PanelMenuTokenSections.Panel;

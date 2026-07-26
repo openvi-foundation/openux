@@ -1,4 +1,4 @@
-import type { SplitButtonDesignTokens, SplitButtonTokenSections } from '@primeuix/themes/types/splitbutton';
+import type { SplitButtonDesignTokens, SplitButtonTokenSections } from '@openuxkit/themes/types/splitbutton';
 
 export const root: SplitButtonTokenSections.Root = {
     borderRadius: '{form.field.border.radius}',

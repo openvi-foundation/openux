@@ -1,5 +1,5 @@
 /**
- * @primeuix/mcp - Search and suggestion tool factories
+ * @openuxkit/mcp - Search and suggestion tool factories
  */
 
 import type { McpServer } from '@modelcontextprotocol/sdk/server/mcp.js';

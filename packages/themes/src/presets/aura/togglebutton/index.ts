@@ -1,4 +1,4 @@
-import type { ToggleButtonDesignTokens, ToggleButtonTokenSections } from '@primeuix/themes/types/togglebutton';
+import type { ToggleButtonDesignTokens, ToggleButtonTokenSections } from '@openuxkit/themes/types/togglebutton';
 
 export const root: ToggleButtonTokenSections.Root = {
     padding: '0.25rem',

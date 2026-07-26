@@ -1,18 +1,19 @@
 {
-    "name": "@primeuix/locale",
-    "version": "0.0.2",
-    "author": "PrimeTek Informatics",
-    "description": "Locale utilities for PrimeUI Libraries",
-    "keywords": ["locale", "internationalization", "i18n", "translation", "localization", "utilities", "primeng", "primereact", "primevue", "primeuix"],
+    "name": "@openuxkit/locale",
+    "version": "0.0.1-alpha.1",
+    "author": "OpenVi Foundation",
+    "description": "Locale and internationalization utilities for OpenVue and other OpenVi Foundation projects",
+    "keywords": ["locale", "internationalization", "i18n", "translation", "localization", "utilities", "openvue", "openux", "openuxkit"],
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/primefaces/primeuix.git",
+        "url": "git+https://github.com/openvi-foundation/openux.git",
         "directory": "packages/locale"
     },
     "bugs": {
-        "url": "https://github.com/primefaces/primeuix/issues"
+        "url": "https://github.com/openvi-foundation/openux/issues"
     },
+    "homepage": "https://github.com/openvi-foundation/openux#readme",
     "main": "./dist/index.mjs",
     "module": "./dist/index.mjs",
     "types": "./dist/index.d.mts",
@@ -37,7 +38,7 @@
         "dev:link": "pnpm link --global && npm link"
     },
     "dependencies": {
-        "@primeuix/utils": "workspace:^"
+        "@openuxkit/utils": "workspace:^"
     },
     "engines": {
         "node": ">=12.11.0"

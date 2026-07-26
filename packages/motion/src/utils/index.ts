@@ -1,4 +1,4 @@
-import { getHiddenElementDimensions, isPrefersReducedMotion, setCSSProperty, toMs } from '@primeuix/utils';
+import { getHiddenElementDimensions, isPrefersReducedMotion, setCSSProperty, toMs } from '@openuxkit/utils';
 import type { MotionClassNamesWithPhase, MotionHooksWithPhase, MotionMetadata, MotionOptions, MotionPhase, MotionState, MotionType } from '../../types';
 
 export const ANIMATION = 'animation';

@@ -1,4 +1,4 @@
-import { getKeyValue, isObject, isString, resolve } from '@primeuix/utils/object';
+import { getKeyValue, isObject, isString, resolve } from '@openuxkit/utils/object';
 import Locale from '../config';
 
 /**

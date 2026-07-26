@@ -1,4 +1,4 @@
-import type { MenubarDesignTokens, MenubarTokenSections } from '@primeuix/themes/types/menubar';
+import type { MenubarDesignTokens, MenubarTokenSections } from '@openuxkit/themes/types/menubar';
 
 export const root: MenubarTokenSections.Root = {
     borderColor: 'transparent',

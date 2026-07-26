@@ -1,4 +1,4 @@
-import type { ListboxDesignTokens, ListboxTokenSections } from '@primeuix/themes/types/listbox';
+import type { ListboxDesignTokens, ListboxTokenSections } from '@openuxkit/themes/types/listbox';
 
 export const root: ListboxTokenSections.Root = {
     background: '{form.field.background}',

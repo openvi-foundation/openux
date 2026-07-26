@@ -1,4 +1,4 @@
-import { mergeKeys } from '@primeuix/utils/object';
+import { mergeKeys } from '@openuxkit/utils/object';
 import LocaleService from '../service';
 import type { LocaleInstance, LocaleOptions } from '../types';
 

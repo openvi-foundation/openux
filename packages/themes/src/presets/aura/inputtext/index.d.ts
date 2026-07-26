@@ -1,6 +1,6 @@
-import type { InputTextTokenSections } from '@primeuix/themes/types/inputtext';
+import type { InputTextTokenSections } from '@openuxkit/themes/types/inputtext';
 
-export * from '@primeuix/themes/types/inputtext';
+export * from '@openuxkit/themes/types/inputtext';
 
 declare const root: InputTextTokenSections.Root;
 declare const _default: {

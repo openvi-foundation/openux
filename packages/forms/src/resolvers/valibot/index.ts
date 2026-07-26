@@ -1,5 +1,5 @@
-import { toValues } from '@primeuix/forms/utils';
-import { isNotEmpty } from '@primeuix/utils';
+import { toValues } from '@openuxkit/forms/utils';
+import { isNotEmpty } from '@openuxkit/utils';
 import { getDotPath, InferOutput, safeParse, safeParseAsync } from 'valibot';
 import type { ResolverOptions, ResolverResult } from '..';
 

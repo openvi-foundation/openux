@@ -1,4 +1,4 @@
-import type { AvatarDesignTokens, AvatarTokenSections } from '@primeuix/themes/types/avatar';
+import type { AvatarDesignTokens, AvatarTokenSections } from '@openuxkit/themes/types/avatar';
 
 export const root: AvatarTokenSections.Root = {
     width: '2rem',

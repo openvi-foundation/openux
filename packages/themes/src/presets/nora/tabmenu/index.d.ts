@@ -1,6 +1,6 @@
-import type { TabmenuTokenSections } from '@primeuix/themes/types/tabmenu';
+import type { TabmenuTokenSections } from '@openuxkit/themes/types/tabmenu';
 
-export * from '@primeuix/themes/types/tabmenu';
+export * from '@openuxkit/themes/types/tabmenu';
 
 declare const root: TabmenuTokenSections.Root;
 declare const tablist: TabmenuTokenSections.Tablist;

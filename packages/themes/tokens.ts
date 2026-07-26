@@ -1,4 +1,4 @@
-/***************** PrimeUIX Tokens (Auto-Generated) *****************/
+/***************** OpenUXKit Tokens (Auto-Generated) *****************/
 export interface TokenMetaData {
     description: string;
     tokens: {

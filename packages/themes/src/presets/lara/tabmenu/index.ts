@@ -1,4 +1,4 @@
-import type { TabmenuDesignTokens, TabmenuTokenSections } from '@primeuix/themes/types/tabmenu';
+import type { TabmenuDesignTokens, TabmenuTokenSections } from '@openuxkit/themes/types/tabmenu';
 
 export const root: TabmenuTokenSections.Root = {
     transitionDuration: '{transition.duration}'

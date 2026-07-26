@@ -1,4 +1,4 @@
-import type { InputGroupDesignTokens, InputGroupTokenSections } from '@primeuix/themes/types/inputgroup';
+import type { InputGroupDesignTokens, InputGroupTokenSections } from '@openuxkit/themes/types/inputgroup';
 
 export const addon: InputGroupTokenSections.Addon = {
     background: '{form.field.background}',

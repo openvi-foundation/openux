@@ -1,6 +1,6 @@
-import type { InplaceTokenSections } from '@primeuix/themes/types/inplace';
+import type { InplaceTokenSections } from '@openuxkit/themes/types/inplace';
 
-export * from '@primeuix/themes/types/inplace';
+export * from '@openuxkit/themes/types/inplace';
 
 declare const root: InplaceTokenSections.Root;
 declare const display: InplaceTokenSections.Display;

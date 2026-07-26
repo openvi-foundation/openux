@@ -1,6 +1,6 @@
-import type { ToggleSwitchTokenSections } from '@primeuix/themes/types/toggleswitch';
+import type { ToggleSwitchTokenSections } from '@openuxkit/themes/types/toggleswitch';
 
-export * from '@primeuix/themes/types/toggleswitch';
+export * from '@openuxkit/themes/types/toggleswitch';
 
 declare const root: ToggleSwitchTokenSections.Root;
 declare const handle: ToggleSwitchTokenSections.Handle;

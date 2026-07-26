@@ -1,4 +1,4 @@
-import type { StepperDesignTokens, StepperTokenSections } from '@primeuix/themes/types/stepper';
+import type { StepperDesignTokens, StepperTokenSections } from '@openuxkit/themes/types/stepper';
 
 export const root: StepperTokenSections.Root = {
     transitionDuration: '{transition.duration}'

@@ -1,6 +1,6 @@
-import type { CheckboxTokenSections } from '@primeuix/themes/types/checkbox';
+import type { CheckboxTokenSections } from '@openuxkit/themes/types/checkbox';
 
-export * from '@primeuix/themes/types/checkbox';
+export * from '@openuxkit/themes/types/checkbox';
 
 declare const root: CheckboxTokenSections.Root;
 declare const icon: CheckboxTokenSections.Icon;

@@ -1,4 +1,4 @@
-import type { TerminalDesignTokens, TerminalTokenSections } from '@primeuix/themes/types/terminal';
+import type { TerminalDesignTokens, TerminalTokenSections } from '@openuxkit/themes/types/terminal';
 
 export const root: TerminalTokenSections.Root = {
     background: '{form.field.background}',

@@ -1,5 +1,5 @@
 /**
- * @primeuix/mcp - Guide/documentation-related tool factories
+ * @openuxkit/mcp - Guide/documentation-related tool factories
  */
 
 import type { McpServer } from '@modelcontextprotocol/sdk/server/mcp.js';

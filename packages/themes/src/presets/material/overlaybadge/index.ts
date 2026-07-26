@@ -1,4 +1,4 @@
-import type { OverlayBadgeDesignTokens, OverlayBadgeTokenSections } from '@primeuix/themes/types/overlaybadge';
+import type { OverlayBadgeDesignTokens, OverlayBadgeTokenSections } from '@openuxkit/themes/types/overlaybadge';
 
 export const root: OverlayBadgeTokenSections.Root = {
     outline: {

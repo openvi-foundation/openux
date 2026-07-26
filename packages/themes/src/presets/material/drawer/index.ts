@@ -1,4 +1,4 @@
-import type { DrawerDesignTokens, DrawerTokenSections } from '@primeuix/themes/types/drawer';
+import type { DrawerDesignTokens, DrawerTokenSections } from '@openuxkit/themes/types/drawer';
 
 export const root: DrawerTokenSections.Root = {
     background: '{overlay.modal.background}',

@@ -1,18 +1,19 @@
 {
-    "name": "@primeuix/headless",
-    "version": "0.0.0-alpha.1",
-    "author": "PrimeTek Informatics",
-    "description": "Headless utilities for PrimeUI Libraries",
-    "keywords": ["headless", "primeng", "primereact", "primevue"],
+    "name": "@openuxkit/headless",
+    "version": "0.0.1-alpha.1",
+    "author": "OpenVi Foundation",
+    "description": "Headless UI utilities for OpenVue and other OpenVi Foundation projects",
+    "keywords": ["headless", "utilities", "openvue", "openux", "openuxkit"],
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/primefaces/primeuix.git",
+        "url": "git+https://github.com/openvi-foundation/openux.git",
         "directory": "packages/headless"
     },
     "bugs": {
-        "url": "https://github.com/primefaces/primeuix/issues"
+        "url": "https://github.com/openvi-foundation/openux/issues"
     },
+    "homepage": "https://github.com/openvi-foundation/openux#readme",
     "main": "./dist/index.mjs",
     "module": "./dist/index.mjs",
     "types": "./dist/index.d.mts",
@@ -42,7 +43,7 @@
         "dev:link": "pnpm link --global && npm link"
     },
     "dependencies": {
-        "@primeuix/utils": "workspace:^"
+        "@openuxkit/utils": "workspace:^"
     },
     "engines": {
         "node": ">=12.11.0"

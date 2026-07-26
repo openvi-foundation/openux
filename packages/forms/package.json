@@ -1,18 +1,19 @@
 {
-    "name": "@primeuix/forms",
-    "version": "0.1.0",
-    "author": "PrimeTek Informatics",
-    "description": "Forms utilities for PrimeUI Libraries",
-    "keywords": ["forms", "validation", "utilities", "primeng", "primereact", "primevue", "primeuix"],
+    "name": "@openuxkit/forms",
+    "version": "0.0.1-alpha.1",
+    "author": "OpenVi Foundation",
+    "description": "Form and validation utilities for OpenVue and other OpenVi Foundation projects",
+    "keywords": ["forms", "validation", "utilities", "openvue", "openux", "openuxkit"],
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/primefaces/primeuix.git",
+        "url": "git+https://github.com/openvi-foundation/openux.git",
         "directory": "packages/forms"
     },
     "bugs": {
-        "url": "https://github.com/primefaces/primeuix/issues"
+        "url": "https://github.com/openvi-foundation/openux/issues"
     },
+    "homepage": "https://github.com/openvi-foundation/openux#readme",
     "exports": {
         "./*": {
             "types": "./dist/*/index.d.mts",
@@ -33,7 +34,7 @@
         "dev:link": "pnpm link --global && npm link"
     },
     "dependencies": {
-        "@primeuix/utils": "workspace:^"
+        "@openuxkit/utils": "workspace:^"
     },
     "devDependencies": {
         "yup": "^1.4.0",

@@ -1,6 +1,6 @@
-import type { AvatarTokenSections } from '@primeuix/themes/types/avatar';
+import type { AvatarTokenSections } from '@openuxkit/themes/types/avatar';
 
-export * from '@primeuix/themes/types/avatar';
+export * from '@openuxkit/themes/types/avatar';
 
 declare const root: AvatarTokenSections.Root;
 declare const icon: AvatarTokenSections.Icon;

@@ -1,4 +1,4 @@
-import type { SliderDesignTokens, SliderTokenSections } from '@primeuix/themes/types/slider';
+import type { SliderDesignTokens, SliderTokenSections } from '@openuxkit/themes/types/slider';
 
 export const root: SliderTokenSections.Root = {
     transitionDuration: '{transition.duration}'

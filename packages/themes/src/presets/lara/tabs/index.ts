@@ -1,4 +1,4 @@
-import type { TabsDesignTokens, TabsTokenSections } from '@primeuix/themes/types/tabs';
+import type { TabsDesignTokens, TabsTokenSections } from '@openuxkit/themes/types/tabs';
 
 export const root: TabsTokenSections.Root = {
     transitionDuration: '{transition.duration}'

@@ -93,7 +93,7 @@ export const logger: Logger & { [key: string]: any } = {
     }
 };
 
-// @todo - move to @primeuix/utils
+// @todo - move to @openuxkit/utils
 
 export function toCamelCase(str: string): string {
     return str.replace(/-([a-z])/g, (_, char) => char.toUpperCase());

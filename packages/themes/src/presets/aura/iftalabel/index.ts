@@ -1,4 +1,4 @@
-import type { IftaLabelDesignTokens, IftaLabelTokenSections } from '@primeuix/themes/types/iftalabel';
+import type { IftaLabelDesignTokens, IftaLabelTokenSections } from '@openuxkit/themes/types/iftalabel';
 
 export const root: IftaLabelTokenSections.Root = {
     color: '{form.field.float.label.color}',

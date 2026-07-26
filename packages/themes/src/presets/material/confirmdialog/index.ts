@@ -1,4 +1,4 @@
-import type { ConfirmDialogDesignTokens, ConfirmDialogTokenSections } from '@primeuix/themes/types/confirmdialog';
+import type { ConfirmDialogDesignTokens, ConfirmDialogTokenSections } from '@openuxkit/themes/types/confirmdialog';
 
 export const icon: ConfirmDialogTokenSections.Icon = {
     size: '2rem',

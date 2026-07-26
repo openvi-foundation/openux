@@ -1,7 +1,7 @@
-import type { StyleOptions } from '@primeuix/styled';
-import type { InputNumberTokenSections } from '@primeuix/themes/types/inputnumber';
+import type { StyleOptions } from '@openuxkit/styled';
+import type { InputNumberTokenSections } from '@openuxkit/themes/types/inputnumber';
 
-export * from '@primeuix/themes/types/inputnumber';
+export * from '@openuxkit/themes/types/inputnumber';
 
 declare const root: InputNumberTokenSections.Root;
 declare const button: InputNumberTokenSections.Button;

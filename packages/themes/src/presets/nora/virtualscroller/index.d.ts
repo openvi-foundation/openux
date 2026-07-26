@@ -1,6 +1,6 @@
-import type { VirtualScrollerTokenSections } from '@primeuix/themes/types/virtualscroller';
+import type { VirtualScrollerTokenSections } from '@openuxkit/themes/types/virtualscroller';
 
-export * from '@primeuix/themes/types/virtualscroller';
+export * from '@openuxkit/themes/types/virtualscroller';
 
 declare const loader: VirtualScrollerTokenSections.Loader;
 declare const _default: {

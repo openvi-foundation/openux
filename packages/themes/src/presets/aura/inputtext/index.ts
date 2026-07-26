@@ -1,4 +1,4 @@
-import type { InputTextDesignTokens, InputTextTokenSections } from '@primeuix/themes/types/inputtext';
+import type { InputTextDesignTokens, InputTextTokenSections } from '@openuxkit/themes/types/inputtext';
 
 export const root: InputTextTokenSections.Root = {
     background: '{form.field.background}',
