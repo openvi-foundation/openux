@@ -1,4 +1,4 @@
-import type { EditorDesignTokens, EditorTokenSections } from '@primeuix/themes/types/editor';
+import type { EditorDesignTokens, EditorTokenSections } from '@openuxkit/themes/types/editor';
 
 export const toolbar: EditorTokenSections.Toolbar = {
     borderColor: '{content.border.color}',

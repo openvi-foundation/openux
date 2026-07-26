@@ -1,4 +1,4 @@
-import type { PasswordDesignTokens, PasswordTokenSections } from '@primeuix/themes/types/password';
+import type { PasswordDesignTokens, PasswordTokenSections } from '@openuxkit/themes/types/password';
 
 export const meter: PasswordTokenSections.Meter = {
     borderRadius: '{content.border.radius}',

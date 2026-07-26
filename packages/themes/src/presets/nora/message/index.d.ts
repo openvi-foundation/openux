@@ -1,6 +1,6 @@
-import type { MessageTokenSections } from '@primeuix/themes/types/message';
+import type { MessageTokenSections } from '@openuxkit/themes/types/message';
 
-export * from '@primeuix/themes/types/message';
+export * from '@openuxkit/themes/types/message';
 
 declare const root: MessageTokenSections.Root;
 declare const content: MessageTokenSections.Content;

@@ -1,4 +1,4 @@
-import type { ProgressSpinnerDesignTokens, ProgressSpinnerTokenSections } from '@primeuix/themes/types/progressspinner';
+import type { ProgressSpinnerDesignTokens, ProgressSpinnerTokenSections } from '@openuxkit/themes/types/progressspinner';
 
 export const colorScheme: ProgressSpinnerTokenSections.ColorScheme = {
     light: {

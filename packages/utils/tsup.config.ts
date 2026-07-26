@@ -16,7 +16,7 @@ export default defineConfig({
     format: ['esm'],
     outDir: 'dist',
     dts: true,
-    external: [/^@primeuix\/(.*)$/],
+    external: [/^@openuxkit\/(.*)$/],
     minify: isProduction,
     sourcemap: isProduction,
     splitting: false,

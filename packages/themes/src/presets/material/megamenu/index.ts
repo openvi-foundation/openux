@@ -1,4 +1,4 @@
-import type { MegaMenuDesignTokens, MegaMenuTokenSections } from '@primeuix/themes/types/megamenu';
+import type { MegaMenuDesignTokens, MegaMenuTokenSections } from '@openuxkit/themes/types/megamenu';
 
 export const root: MegaMenuTokenSections.Root = {
     background: '{content.background}',

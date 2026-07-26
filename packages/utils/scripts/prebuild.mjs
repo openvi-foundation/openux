@@ -14,7 +14,7 @@ fs.readdirSync(path.resolve(__root, INPUT_DIR), { withFileTypes: true })
         const folderPath = path.resolve(__root, INPUT_DIR + folderName);
         const exports = [];
 
-        folderExports.push(`export * from '@primeuix/utils/${folderName}';\n`);
+        folderExports.push(`export * from '@openuxkit/utils/${folderName}';\n`);
 
         fs.readdirSync(folderPath, { withFileTypes: true })
             .filter((dir) => dir.isDirectory())

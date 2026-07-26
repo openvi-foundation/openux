@@ -1,4 +1,4 @@
-import type { SelectDesignTokens, SelectTokenSections } from '@primeuix/themes/types/select';
+import type { SelectDesignTokens, SelectTokenSections } from '@openuxkit/themes/types/select';
 
 export const root: SelectTokenSections.Root = {
     background: '{form.field.background}',

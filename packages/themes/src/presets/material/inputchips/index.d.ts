@@ -1,6 +1,6 @@
-import type { InputChipsTokenSections } from '@primeuix/themes/types/inputchips';
+import type { InputChipsTokenSections } from '@openuxkit/themes/types/inputchips';
 
-export * from '@primeuix/themes/types/inputchips';
+export * from '@openuxkit/themes/types/inputchips';
 
 declare const root: InputChipsTokenSections.Root;
 declare const chip: InputChipsTokenSections.Chip;

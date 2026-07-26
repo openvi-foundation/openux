@@ -1,6 +1,6 @@
-import type { SliderTokenSections } from '@primeuix/themes/types/slider';
+import type { SliderTokenSections } from '@openuxkit/themes/types/slider';
 
-export * from '@primeuix/themes/types/slider';
+export * from '@openuxkit/themes/types/slider';
 
 declare const root: SliderTokenSections.Root;
 declare const track: SliderTokenSections.Track;

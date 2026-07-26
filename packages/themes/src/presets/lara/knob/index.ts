@@ -1,4 +1,4 @@
-import type { KnobDesignTokens, KnobTokenSections } from '@primeuix/themes/types/knob';
+import type { KnobDesignTokens, KnobTokenSections } from '@openuxkit/themes/types/knob';
 
 export const root: KnobTokenSections.Root = {
     transitionDuration: '{transition.duration}',

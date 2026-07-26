@@ -23,7 +23,7 @@ export default defineConfig([
         dts: {
             entry: ['src/index.ts']
         },
-        external: [/^@primeuix\/(.*)$/],
+        external: [/^@openuxkit\/(.*)$/],
         minify: isProduction ? 'terser' : false,
         sourcemap: isProduction,
         splitting: false,
@@ -36,7 +36,7 @@ export default defineConfig([
     },
     ...themes.map<Options>((theme) => {
         const name = theme.charAt(0).toUpperCase() + theme.slice(1);
-        const globalName = `PrimeUIX.Themes.${name}`;
+        const globalName = `OpenUXKit.Themes.${name}`;
 
         return {
             entry: {

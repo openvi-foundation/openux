@@ -1,0 +1,23 @@
+OpenUXKit
+Copyright (c) 2026 OpenVi Foundation and contributors
+
+This product is a fork of PrimeUIX:
+
+    https://github.com/primefaces/primeuix
+    Copyright (c) 2025 PrimeTek Informatics
+    Licensed under the MIT License
+
+The original PrimeUIX source was obtained under the MIT License, a copy of
+which is retained in the LICENSE file at the root of this repository and in
+every package directory. That license, and the copyright notice above, apply
+to all portions of this work derived from PrimeUIX.
+
+OpenUXKit is maintained independently by the OpenVi Foundation under the same
+MIT License. It is not affiliated with, sponsored by, or endorsed by PrimeTek
+Informatics. The packages in this repository are published under the
+@openuxkit npm scope; the @primeuix scope remains the property of PrimeTek
+Informatics and is not used here.
+
+The names PrimeUIX, PrimeVue, PrimeNG, PrimeReact and PrimeTek are used in
+this repository only to accurately describe the origin of the code, and
+belong to their respective owners.

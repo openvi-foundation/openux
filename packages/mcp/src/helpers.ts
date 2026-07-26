@@ -1,5 +1,5 @@
 /**
- * @primeuix/mcp - Shared helper functions for PrimeVue and PrimeNG MCP servers
+ * @openuxkit/mcp - Shared helper functions for PrimeVue and PrimeNG MCP servers
  */
 
 import type { Component, ComponentsData, Page, PrimeMcpConfig } from './types.js';

@@ -1,4 +1,4 @@
-import type { DockDesignTokens, DockTokenSections } from '@primeuix/themes/types/dock';
+import type { DockDesignTokens, DockTokenSections } from '@openuxkit/themes/types/dock';
 
 export const root: DockTokenSections.Root = {
     background: 'rgba(255, 255, 255, 0.1)',

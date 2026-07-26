@@ -1,18 +1,19 @@
 {
-    "name": "@primeuix/themes",
-    "version": "2.0.3",
-    "author": "PrimeTek Informatics",
-    "description": "Themes for PrimeUI Libraries",
-    "keywords": ["themes", "css", "style utilities", "primeng", "primereact", "primevue", "primeuix"],
+    "name": "@openuxkit/themes",
+    "version": "0.0.1-alpha.1",
+    "author": "OpenVi Foundation",
+    "description": "Theme presets and theming API for OpenVue and other OpenVi Foundation projects",
+    "keywords": ["themes", "css", "style utilities", "design tokens", "openvue", "openux", "openuxkit"],
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/primefaces/primeuix.git",
+        "url": "git+https://github.com/openvi-foundation/openux.git",
         "directory": "packages/themes"
     },
     "bugs": {
-        "url": "https://github.com/primefaces/primeuix/issues"
+        "url": "https://github.com/openvi-foundation/openux/issues"
     },
+    "homepage": "https://github.com/openvi-foundation/openux#readme",
     "main": "./dist/index.mjs",
     "module": "./dist/index.mjs",
     "types": "./dist/index.d.mts",
@@ -55,6 +56,6 @@
         "dev:link": "pnpm link --global && npm link"
     },
     "dependencies": {
-        "@primeuix/styled": "workspace:^"
+        "@openuxkit/styled": "workspace:^"
     }
 }

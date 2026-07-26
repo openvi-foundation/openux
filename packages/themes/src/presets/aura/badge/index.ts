@@ -1,4 +1,4 @@
-import type { BadgeDesignTokens, BadgeTokenSections } from '@primeuix/themes/types/badge';
+import type { BadgeDesignTokens, BadgeTokenSections } from '@openuxkit/themes/types/badge';
 
 export const root: BadgeTokenSections.Root = {
     borderRadius: '{border.radius.md}',

@@ -1,4 +1,4 @@
-import type { ConfirmPopupDesignTokens, ConfirmPopupTokenSections } from '@primeuix/themes/types/confirmpopup';
+import type { ConfirmPopupDesignTokens, ConfirmPopupTokenSections } from '@openuxkit/themes/types/confirmpopup';
 
 export const root: ConfirmPopupTokenSections.Root = {
     background: '{overlay.popover.background}',

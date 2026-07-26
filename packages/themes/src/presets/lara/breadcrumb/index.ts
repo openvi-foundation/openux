@@ -1,4 +1,4 @@
-import type { BreadcrumbDesignTokens, BreadcrumbTokenSections } from '@primeuix/themes/types/breadcrumb';
+import type { BreadcrumbDesignTokens, BreadcrumbTokenSections } from '@openuxkit/themes/types/breadcrumb';
 
 export const root: BreadcrumbTokenSections.Root = {
     padding: '1.25rem',

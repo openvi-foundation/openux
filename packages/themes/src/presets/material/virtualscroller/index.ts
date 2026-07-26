@@ -1,4 +1,4 @@
-import type { VirtualScrollerDesignTokens, VirtualScrollerTokenSections } from '@primeuix/themes/types/virtualscroller';
+import type { VirtualScrollerDesignTokens, VirtualScrollerTokenSections } from '@openuxkit/themes/types/virtualscroller';
 
 export const loader: VirtualScrollerTokenSections.Loader = {
     mask: {

@@ -1,6 +1,6 @@
-import type { IconFieldTokenSections } from '@primeuix/themes/types/iconfield';
+import type { IconFieldTokenSections } from '@openuxkit/themes/types/iconfield';
 
-export * from '@primeuix/themes/types/iconfield';
+export * from '@openuxkit/themes/types/iconfield';
 
 declare const icon: IconFieldTokenSections.Icon;
 declare const css: IconFieldTokenSections.CSS;

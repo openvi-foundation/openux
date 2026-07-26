@@ -1,5 +1,5 @@
 /**
- * @primeuix/mcp - Tool exports
+ * @openuxkit/mcp - Tool exports
  */
 
 export { registerComponentTools } from './component-tools.js';

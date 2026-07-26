@@ -1,4 +1,4 @@
-import type { TooltipDesignTokens, TooltipTokenSections } from '@primeuix/themes/types/tooltip';
+import type { TooltipDesignTokens, TooltipTokenSections } from '@openuxkit/themes/types/tooltip';
 
 export const root: TooltipTokenSections.Root = {
     maxWidth: '12.5rem',

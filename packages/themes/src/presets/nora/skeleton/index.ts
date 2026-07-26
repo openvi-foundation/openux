@@ -1,4 +1,4 @@
-import type { SkeletonDesignTokens, SkeletonTokenSections } from '@primeuix/themes/types/skeleton';
+import type { SkeletonDesignTokens, SkeletonTokenSections } from '@openuxkit/themes/types/skeleton';
 
 export const root: SkeletonTokenSections.Root = {
     borderRadius: '{content.border.radius}'

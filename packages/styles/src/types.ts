@@ -1,4 +1,4 @@
-import type { StyleType } from '@primeuix/styled';
+import type { StyleType } from '@openuxkit/styled';
 
 export declare const style: StyleType;
 

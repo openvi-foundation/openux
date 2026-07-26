@@ -1,4 +1,4 @@
-import type { CarouselDesignTokens, CarouselTokenSections } from '@primeuix/themes/types/carousel';
+import type { CarouselDesignTokens, CarouselTokenSections } from '@openuxkit/themes/types/carousel';
 
 export const root: CarouselTokenSections.Root = {
     transitionDuration: '{transition.duration}'

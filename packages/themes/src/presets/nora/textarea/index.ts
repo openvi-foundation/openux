@@ -1,4 +1,4 @@
-import type { TextareaDesignTokens, TextareaTokenSections } from '@primeuix/themes/types/textarea';
+import type { TextareaDesignTokens, TextareaTokenSections } from '@openuxkit/themes/types/textarea';
 
 export const root: TextareaTokenSections.Root = {
     background: '{form.field.background}',

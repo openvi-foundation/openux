@@ -1,4 +1,4 @@
-import type { ToolbarDesignTokens, ToolbarTokenSections } from '@primeuix/themes/types/toolbar';
+import type { ToolbarDesignTokens, ToolbarTokenSections } from '@openuxkit/themes/types/toolbar';
 
 export const root: ToolbarTokenSections.Root = {
     background: '{content.background}',

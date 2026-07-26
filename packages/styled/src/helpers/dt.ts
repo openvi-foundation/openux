@@ -1,4 +1,4 @@
-import { isEmpty, matchRegex } from '@primeuix/utils/object';
+import { isEmpty, matchRegex } from '@openuxkit/utils/object';
 import Theme from '../config/index';
 import { EXPR_REGEX, getVariableValue } from '../utils/index';
 

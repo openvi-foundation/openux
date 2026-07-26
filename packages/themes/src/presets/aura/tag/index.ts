@@ -1,4 +1,4 @@
-import type { TagDesignTokens, TagTokenSections } from '@primeuix/themes/types/tag';
+import type { TagDesignTokens, TagTokenSections } from '@openuxkit/themes/types/tag';
 
 export const root: TagTokenSections.Root = {
     fontSize: '0.875rem',

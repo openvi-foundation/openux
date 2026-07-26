@@ -1,4 +1,4 @@
-import type { FieldsetDesignTokens, FieldsetTokenSections } from '@primeuix/themes/types/fieldset';
+import type { FieldsetDesignTokens, FieldsetTokenSections } from '@openuxkit/themes/types/fieldset';
 
 export const root: FieldsetTokenSections.Root = {
     background: '{content.background}',

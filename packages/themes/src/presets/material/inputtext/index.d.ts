@@ -1,7 +1,7 @@
-import type { StyleOptions } from '@primeuix/styled';
-import type { InputTextTokenSections } from '@primeuix/themes/types/inputtext';
+import type { StyleOptions } from '@openuxkit/styled';
+import type { InputTextTokenSections } from '@openuxkit/themes/types/inputtext';
 
-export * from '@primeuix/themes/types/inputtext';
+export * from '@openuxkit/themes/types/inputtext';
 
 declare const root: InputTextTokenSections.Root;
 declare const css: InputTextTokenSections.CSS;

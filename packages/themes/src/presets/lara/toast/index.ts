@@ -1,4 +1,4 @@
-import type { ToastDesignTokens, ToastTokenSections } from '@primeuix/themes/types/toast';
+import type { ToastDesignTokens, ToastTokenSections } from '@openuxkit/themes/types/toast';
 
 export const root: ToastTokenSections.Root = {
     width: '25rem',

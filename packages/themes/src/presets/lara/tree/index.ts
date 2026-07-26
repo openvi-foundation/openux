@@ -1,4 +1,4 @@
-import type { TreeDesignTokens, TreeTokenSections } from '@primeuix/themes/types/tree';
+import type { TreeDesignTokens, TreeTokenSections } from '@openuxkit/themes/types/tree';
 
 export const root: TreeTokenSections.Root = {
     background: '{content.background}',

@@ -1,4 +1,4 @@
-import type { ImageCompareDesignTokens, ImageCompareTokenSections } from '@primeuix/themes/types/imagecompare';
+import type { ImageCompareDesignTokens, ImageCompareTokenSections } from '@openuxkit/themes/types/imagecompare';
 
 export const handle: ImageCompareTokenSections.Handle = {
     size: '20px',

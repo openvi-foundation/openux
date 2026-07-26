@@ -1,5 +1,5 @@
-import { toValues } from '@primeuix/forms/utils';
-import { isNotEmpty } from '@primeuix/utils';
+import { toValues } from '@openuxkit/forms/utils';
+import { isNotEmpty } from '@openuxkit/utils';
 import type { ParseParams, Schema } from 'zod';
 import type { ResolverOptions, ResolverResult } from '..';
 

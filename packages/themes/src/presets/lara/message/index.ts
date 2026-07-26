@@ -1,4 +1,4 @@
-import type { MessageDesignTokens, MessageTokenSections } from '@primeuix/themes/types/message';
+import type { MessageDesignTokens, MessageTokenSections } from '@openuxkit/themes/types/message';
 
 export const root: MessageTokenSections.Root = {
     borderRadius: '{content.border.radius}',

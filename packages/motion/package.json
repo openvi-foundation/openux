@@ -1,18 +1,19 @@
 {
-    "name": "@primeuix/motion",
-    "version": "0.0.11",
-    "author": "PrimeTek Informatics",
-    "description": "Motion utilities for PrimeUI Libraries",
-    "keywords": ["motion", "animation", "transition", "composition utilities", "primeng", "primereact", "primevue", "primeuix"],
+    "name": "@openuxkit/motion",
+    "version": "0.0.1-alpha.1",
+    "author": "OpenVi Foundation",
+    "description": "Motion and transition utilities for OpenVue and other OpenVi Foundation projects",
+    "keywords": ["motion", "animation", "transition", "composition utilities", "openvue", "openux", "openuxkit"],
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/primefaces/primeuix.git",
+        "url": "git+https://github.com/openvi-foundation/openux.git",
         "directory": "packages/motion"
     },
     "bugs": {
-        "url": "https://github.com/primefaces/primeuix/issues"
+        "url": "https://github.com/openvi-foundation/openux/issues"
     },
+    "homepage": "https://github.com/openvi-foundation/openux#readme",
     "main": "./dist/index.mjs",
     "module": "./dist/index.mjs",
     "types": "./dist/index.d.mts",
@@ -36,7 +37,7 @@
         "dev:link": "pnpm link --global && npm link"
     },
     "dependencies": {
-        "@primeuix/utils": "workspace:^"
+        "@openuxkit/utils": "workspace:^"
     },
     "engines": {
         "node": ">=12.11.0"

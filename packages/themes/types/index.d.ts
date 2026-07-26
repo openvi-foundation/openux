@@ -3,7 +3,7 @@
  * @module themes
  *
  */
-import type { StyleOptions, ThemeOptions } from '@primeuix/styled';
+import type { StyleOptions, ThemeOptions } from '@openuxkit/styled';
 
 import type { AccordionDesignTokens } from './accordion';
 import type { AutoCompleteDesignTokens } from './autocomplete';
@@ -116,7 +116,7 @@ export declare type RequiredDesignTokens<T, C = never> = {
 } & DesignTokens<T> &
     (C extends never ? object : ColorSchemeDesignToken<C>);
 
-// @todo: Remove this when the types are fixed in the styled package. Use `ColorScale` from `@primeuix/styled` instead.
+// @todo: Remove this when the types are fixed in the styled package. Use `ColorScale` from `@openuxkit/styled` instead.
 export interface PaletteDesignToken {
     0?: string;
     50?: string;

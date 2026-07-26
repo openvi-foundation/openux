@@ -30,15 +30,15 @@
     "moduleResolution": "bundler",                       /* (UPDATED) Specify how TypeScript looks up a file from a given module specifier. */
     "baseUrl": "./",                                     /* (UPDATED) Specify the base directory to resolve non-relative module names. */
     "paths": {                                           /* (UPDATED) Specify a set of entries that re-map imports to additional lookup locations. */
-        "@primeuix/forms/*": ["./packages/forms/src/*"],
-        "@primeuix/headless/*": ["./packages/headless/src/*"],
-        "@primeuix/locale/*": ["./packages/locale/src/*"],
-        "@primeuix/mcp/*": ["./packages/mcp/src/*"],
-        "@primeuix/motion/*": ["./packages/motion/src/*", "./packages/motion/types/*"],
-        "@primeuix/styled/*": ["./packages/styled/src/*"],
-        "@primeuix/utils/*": ["./packages/utils/src/*"],
-        "@primeuix/styles/*": ["./packages/styles/src/*"],
-        "@primeuix/themes/*": ["./packages/themes/src/*", "./packages/themes/src/presets/*", "./packages/themes/types/*"],
+        "@openuxkit/forms/*": ["./packages/forms/src/*"],
+        "@openuxkit/headless/*": ["./packages/headless/src/*"],
+        "@openuxkit/locale/*": ["./packages/locale/src/*"],
+        "@openuxkit/mcp/*": ["./packages/mcp/src/*"],
+        "@openuxkit/motion/*": ["./packages/motion/src/*", "./packages/motion/types/*"],
+        "@openuxkit/styled/*": ["./packages/styled/src/*"],
+        "@openuxkit/utils/*": ["./packages/utils/src/*"],
+        "@openuxkit/styles/*": ["./packages/styles/src/*"],
+        "@openuxkit/themes/*": ["./packages/themes/src/*", "./packages/themes/src/presets/*", "./packages/themes/types/*"],
     },
     // "rootDirs": [],                                   /* Allow multiple folders to be treated as one when resolving modules. */
     // "typeRoots": [],                                  /* Specify multiple folders that act like './node_modules/@types'. */

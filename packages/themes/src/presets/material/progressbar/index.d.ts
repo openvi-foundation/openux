@@ -1,6 +1,6 @@
-import type { ProgressBarTokenSections } from '@primeuix/themes/types/progressbar';
+import type { ProgressBarTokenSections } from '@openuxkit/themes/types/progressbar';
 
-export * from '@primeuix/themes/types/progressbar';
+export * from '@openuxkit/themes/types/progressbar';
 
 declare const root: ProgressBarTokenSections.Root;
 declare const value: ProgressBarTokenSections.Value;

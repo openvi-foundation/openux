@@ -10,11 +10,11 @@
     },
     "devDependencies": {
         "vite": "^6.1.0",
-        "@primeuix/forms": "workspace:*",
-        "@primeuix/locale": "workspace:*",
-        "@primeuix/styled": "workspace:*",
-        "@primeuix/styles": "workspace:*",
-        "@primeuix/themes": "workspace:*",
-        "@primeuix/utils": "workspace:*"
+        "@openuxkit/forms": "workspace:*",
+        "@openuxkit/locale": "workspace:*",
+        "@openuxkit/styled": "workspace:*",
+        "@openuxkit/styles": "workspace:*",
+        "@openuxkit/themes": "workspace:*",
+        "@openuxkit/utils": "workspace:*"
     }
 }

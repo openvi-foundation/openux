@@ -1,27 +1,36 @@
-# PrimeUIX
+# OpenUXKit
 
-### The next chapter has begun.
+The framework-agnostic UI foundation behind [OpenVue](https://github.com/open-vue/openvue) — permanently MIT.
 
-After years as an open source library, PrimeUIX enters its next chapter as part of **PrimeUI**,  a sustainable foundation for the libraries you rely on.
+OpenUXKit is a fork of [PrimeUIX](https://github.com/primefaces/primeuix), taken from the last MIT-licensed source and maintained independently by the OpenVi Foundation. It exists so that OpenVue owns its own styling and theming engine end to end, rather than resolving it at runtime from a scope it does not control.
 
-This repository is now **archived**. It remains available, as a record of everything built here together.
+## Packages
 
-## What this means
+| Package                                    | Description                                                    |
+| ------------------------------------------ | -------------------------------------------------------------- |
+| [`@openuxkit/utils`](packages/utils)       | DOM, object, event bus, uuid and z-index helpers               |
+| [`@openuxkit/styled`](packages/styled)     | CSS-in-JS theming engine                                       |
+| [`@openuxkit/styles`](packages/styles)     | Per-component base CSS                                         |
+| [`@openuxkit/themes`](packages/themes)     | Theme presets (aura, lara, material, nora) and the theming API |
+| [`@openuxkit/forms`](packages/forms)       | Form state and validation resolvers                            |
+| [`@openuxkit/locale`](packages/locale)     | Locale and i18n utilities                                      |
+| [`@openuxkit/motion`](packages/motion)     | Motion and transition utilities                                |
+| [`@openuxkit/headless`](packages/headless) | Headless UI utilities                                          |
+| [`@openuxkit/mcp`](packages/mcp)           | Shared Model Context Protocol server core                      |
 
-**Existing MIT versions remain MIT, forever.**
-Every release published under the MIT license stays exactly as it is. Your existing projects are unaffected. Nothing is taken away.
+## Development
 
-**Development continues at a new home.**
-Active development, new releases, and everything ahead now live under PrimeUI.
+```bash
+pnpm install
+pnpm run build:packages   # build all packages
+pnpm run type:check       # typecheck all packages
+pnpm test                 # run the test suites
+```
 
-➡️ **Read the announcement:** [primeui.dev/nextchapter](https://primeui.dev/nextchapter)
+`submodules/` holds read-only upstream clones kept purely for reference. They are not source, are not built, and are not published.
 
-➡️ **The journey continues at:** [primeuix.dev](https://primeuix.dev)
+## License
 
-## Thank you
+MIT. See [LICENSE](LICENSE), and [NOTICE](NOTICE) for attribution of the upstream PrimeUIX work.
 
-To everyone who used PrimeUIX, filed an issue, opened a pull request, answered a question, or simply built something with it,  thank you. This library reached hundreds of millions of downloads because of you.
-
-This archive stays here as a thank you and a milestone. The next chapter is just beginning, and we hope you'll be part of it.
-
-— The PrimeTek Team
+OpenUXKit is not affiliated with, sponsored by, or endorsed by PrimeTek Informatics.

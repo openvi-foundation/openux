@@ -1,6 +1,6 @@
-import type { ImageTokenSections } from '@primeuix/themes/types/image';
+import type { ImageTokenSections } from '@openuxkit/themes/types/image';
 
-export * from '@primeuix/themes/types/image';
+export * from '@openuxkit/themes/types/image';
 
 declare const root: ImageTokenSections.Root;
 declare const preview: ImageTokenSections.Preview;

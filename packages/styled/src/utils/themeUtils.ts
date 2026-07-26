@@ -1,4 +1,4 @@
-import { isEmpty, isNotEmpty, isObject, matchRegex, minifyCSS, resolve } from '@primeuix/utils/object';
+import { isEmpty, isNotEmpty, isObject, matchRegex, minifyCSS, resolve } from '@openuxkit/utils/object';
 import { dt, toVariables } from '../helpers/index';
 import { CALC_REGEX, EXPR_REGEX, getRule, toTokenKey, VAR_REGEX } from './sharedUtils';
 

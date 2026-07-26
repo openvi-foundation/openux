@@ -1,8 +1,8 @@
 {
     "$schema": "https://unpkg.com/@changesets/config@3.0.4/schema.json",
-    "changelog": ["@changesets/changelog-github", { "repo": "primefaces/primeuix" }],
+    "changelog": ["@changesets/changelog-github", { "repo": "openvi-foundation/openux" }],
     "commit": false,
-    "fixed": [["@primeuix/*"]],
+    "fixed": [["@openuxkit/*"]],
     "linked": [],
     "access": "public",
     "baseBranch": "main",

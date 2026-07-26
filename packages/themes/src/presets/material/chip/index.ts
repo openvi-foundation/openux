@@ -1,4 +1,4 @@
-import type { ChipDesignTokens, ChipTokenSections } from '@primeuix/themes/types/chip';
+import type { ChipDesignTokens, ChipTokenSections } from '@openuxkit/themes/types/chip';
 
 export const root: ChipTokenSections.Root = {
     borderRadius: '2rem',

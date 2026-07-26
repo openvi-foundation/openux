@@ -1,4 +1,4 @@
-import type { DatePickerDesignTokens, DatePickerTokenSections } from '@primeuix/themes/types/datepicker';
+import type { DatePickerDesignTokens, DatePickerTokenSections } from '@openuxkit/themes/types/datepicker';
 
 export const root: DatePickerTokenSections.Root = {
     transitionDuration: '{transition.duration}'

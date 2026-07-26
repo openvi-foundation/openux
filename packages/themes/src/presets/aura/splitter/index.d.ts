@@ -1,6 +1,6 @@
-import type { SplitterTokenSections } from '@primeuix/themes/types/splitter';
+import type { SplitterTokenSections } from '@openuxkit/themes/types/splitter';
 
-export * from '@primeuix/themes/types/splitter';
+export * from '@openuxkit/themes/types/splitter';
 
 declare const root: SplitterTokenSections.Root;
 declare const gutter: SplitterTokenSections.Gutter;

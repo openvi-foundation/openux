@@ -1,4 +1,4 @@
-import type { OrderListDesignTokens, OrderListTokenSections } from '@primeuix/themes/types/orderlist';
+import type { OrderListDesignTokens, OrderListTokenSections } from '@openuxkit/themes/types/orderlist';
 
 export const root: OrderListTokenSections.Root = {
     gap: '1.125rem'

@@ -1,4 +1,4 @@
-import type { PanelMenuDesignTokens, PanelMenuTokenSections } from '@primeuix/themes/types/panelmenu';
+import type { PanelMenuDesignTokens, PanelMenuTokenSections } from '@openuxkit/themes/types/panelmenu';
 
 export const root: PanelMenuTokenSections.Root = {
     gap: '0',

@@ -1,4 +1,4 @@
-import type { RadioButtonDesignTokens, RadioButtonTokenSections } from '@primeuix/themes/types/radiobutton';
+import type { RadioButtonDesignTokens, RadioButtonTokenSections } from '@openuxkit/themes/types/radiobutton';
 
 export const root: RadioButtonTokenSections.Root = {
     width: '1.25rem',

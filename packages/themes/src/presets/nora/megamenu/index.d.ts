@@ -1,6 +1,6 @@
-import type { MegaMenuTokenSections } from '@primeuix/themes/types/megamenu';
+import type { MegaMenuTokenSections } from '@openuxkit/themes/types/megamenu';
 
-export * from '@primeuix/themes/types/megamenu';
+export * from '@openuxkit/themes/types/megamenu';
 
 declare const root: MegaMenuTokenSections.Root;
 declare const baseItem: MegaMenuTokenSections.BaseItem;
