@@ -1,6 +1,6 @@
 {
     "name": "@openuxkit/forms",
-    "version": "0.0.1-alpha.1",
+    "version": "1.0.0",
     "author": "OpenVi Foundation",
     "description": "Form and validation utilities for OpenVue and other OpenVi Foundation projects",
     "keywords": ["forms", "validation", "utilities", "openvue", "openux", "openuxkit"],

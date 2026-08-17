@@ -1,6 +1,6 @@
 {
     "name": "@openuxkit/headless",
-    "version": "0.0.1-alpha.1",
+    "version": "1.0.0",
     "author": "OpenVi Foundation",
     "description": "Headless UI utilities for OpenVue and other OpenVi Foundation projects",
     "keywords": ["headless", "utilities", "openvue", "openux", "openuxkit"],

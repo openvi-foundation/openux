@@ -1,6 +1,6 @@
 {
     "name": "@openuxkit/motion",
-    "version": "0.0.1-alpha.1",
+    "version": "1.0.0",
     "author": "OpenVi Foundation",
     "description": "Motion and transition utilities for OpenVue and other OpenVi Foundation projects",
     "keywords": ["motion", "animation", "transition", "composition utilities", "openvue", "openux", "openuxkit"],

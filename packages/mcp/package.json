@@ -1,6 +1,6 @@
 {
     "name": "@openuxkit/mcp",
-    "version": "0.0.1-alpha.1",
+    "version": "1.0.0",
     "author": "OpenVi Foundation",
     "description": "Model Context Protocol (MCP) server core for OpenVue and other OpenVi Foundation projects",
     "keywords": ["mcp", "model-context-protocol", "claude", "ai", "llm", "openvue", "openux", "openuxkit"],
