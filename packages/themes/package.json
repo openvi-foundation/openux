@@ -30,7 +30,7 @@
             "types": "./types/*/index.d.ts"
         },
         "./tokens": {
-            "types": "./tokens/index.d.ts",
+            "types": "./tokens/index.d.mts",
             "import": "./tokens/index.mjs",
             "default": "./tokens/index.mjs"
         },
