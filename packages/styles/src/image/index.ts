@@ -53,6 +53,7 @@ export const style = /*css*/ `
         z-index: 1;
         padding: dt('image.toolbar.padding');
         background: dt('image.toolbar.background');
+        -webkit-backdrop-filter: blur(dt('image.toolbar.blur'));
         backdrop-filter: blur(dt('image.toolbar.blur'));
         border-color: dt('image.toolbar.border.color');
         border-style: solid;

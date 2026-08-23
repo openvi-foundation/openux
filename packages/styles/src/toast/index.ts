@@ -84,6 +84,7 @@ export const style = /*css*/ `
     .p-toast-message-contrast {
         border-width: dt('toast.border.width');
         border-style: solid;
+        -webkit-backdrop-filter: blur(dt('toast.blur'));
         backdrop-filter: blur(dt('toast.blur'));
         border-radius: dt('toast.border.radius');
     }
