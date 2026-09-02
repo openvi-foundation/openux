@@ -239,7 +239,7 @@ export const style = /*css*/ `
     }
 
     .p-toast-message-leave-active {
-        animation: p-animate-toast-leave 250ms ease-in;
+        animation: p-animate-toast-leave 250ms ease-in forwards;
     }
 
     .p-toast-message-leave-to .p-toast-message-content {
@@ -265,6 +265,7 @@ export const style = /*css*/ `
         to {
             opacity: 0;
             margin-bottom: 0;
+            border-width: 0;
             grid-template-rows: 0fr;
             transform: translateY(-100%) scale(0.6);
         }
