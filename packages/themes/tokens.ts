@@ -13794,6 +13794,162 @@ export default {
                 description: 'Focus ring shadow of node toggle button'
             },
             {
+                name: 'treetable.filter.inlineGap',
+                token: 'treetable.filter.inline.gap',
+                variable: '--p-treetable-filter-inline-gap',
+                description: 'Inline gap of filter'
+            },
+            {
+                name: 'treetable.filter.overlaySelect.background',
+                token: 'treetable.filter.overlay.select.background',
+                variable: '--p-treetable-filter-overlay-select-background',
+                description: 'Overlay select background of filter'
+            },
+            {
+                name: 'treetable.filter.overlaySelect.borderColor',
+                token: 'treetable.filter.overlay.select.border.color',
+                variable: '--p-treetable-filter-overlay-select-border-color',
+                description: 'Overlay select border color of filter'
+            },
+            {
+                name: 'treetable.filter.overlaySelect.borderRadius',
+                token: 'treetable.filter.overlay.select.border.radius',
+                variable: '--p-treetable-filter-overlay-select-border-radius',
+                description: 'Overlay select border radius of filter'
+            },
+            {
+                name: 'treetable.filter.overlaySelect.color',
+                token: 'treetable.filter.overlay.select.color',
+                variable: '--p-treetable-filter-overlay-select-color',
+                description: 'Overlay select color of filter'
+            },
+            {
+                name: 'treetable.filter.overlaySelect.shadow',
+                token: 'treetable.filter.overlay.select.shadow',
+                variable: '--p-treetable-filter-overlay-select-shadow',
+                description: 'Overlay select shadow of filter'
+            },
+            {
+                name: 'treetable.filter.overlayPopover.background',
+                token: 'treetable.filter.overlay.popover.background',
+                variable: '--p-treetable-filter-overlay-popover-background',
+                description: 'Overlay popover background of filter'
+            },
+            {
+                name: 'treetable.filter.overlayPopover.borderColor',
+                token: 'treetable.filter.overlay.popover.border.color',
+                variable: '--p-treetable-filter-overlay-popover-border-color',
+                description: 'Overlay popover border color of filter'
+            },
+            {
+                name: 'treetable.filter.overlayPopover.borderRadius',
+                token: 'treetable.filter.overlay.popover.border.radius',
+                variable: '--p-treetable-filter-overlay-popover-border-radius',
+                description: 'Overlay popover border radius of filter'
+            },
+            {
+                name: 'treetable.filter.overlayPopover.color',
+                token: 'treetable.filter.overlay.popover.color',
+                variable: '--p-treetable-filter-overlay-popover-color',
+                description: 'Overlay popover color of filter'
+            },
+            {
+                name: 'treetable.filter.overlayPopover.shadow',
+                token: 'treetable.filter.overlay.popover.shadow',
+                variable: '--p-treetable-filter-overlay-popover-shadow',
+                description: 'Overlay popover shadow of filter'
+            },
+            {
+                name: 'treetable.filter.overlayPopover.padding',
+                token: 'treetable.filter.overlay.popover.padding',
+                variable: '--p-treetable-filter-overlay-popover-padding',
+                description: 'Overlay popover padding of filter'
+            },
+            {
+                name: 'treetable.filter.overlayPopover.gap',
+                token: 'treetable.filter.overlay.popover.gap',
+                variable: '--p-treetable-filter-overlay-popover-gap',
+                description: 'Overlay popover gap of filter'
+            },
+            {
+                name: 'treetable.filter.rule.borderColor',
+                token: 'treetable.filter.rule.border.color',
+                variable: '--p-treetable-filter-rule-border-color',
+                description: 'Rule border color of filter'
+            },
+            {
+                name: 'treetable.filter.constraintList.padding',
+                token: 'treetable.filter.constraint.list.padding',
+                variable: '--p-treetable-filter-constraint-list-padding',
+                description: 'Constraint list padding of filter'
+            },
+            {
+                name: 'treetable.filter.constraintList.gap',
+                token: 'treetable.filter.constraint.list.gap',
+                variable: '--p-treetable-filter-constraint-list-gap',
+                description: 'Constraint list gap of filter'
+            },
+            {
+                name: 'treetable.filter.constraint.focusBackground',
+                token: 'treetable.filter.constraint.focus.background',
+                variable: '--p-treetable-filter-constraint-focus-background',
+                description: 'Constraint focus background of filter'
+            },
+            {
+                name: 'treetable.filter.constraint.selectedBackground',
+                token: 'treetable.filter.constraint.selected.background',
+                variable: '--p-treetable-filter-constraint-selected-background',
+                description: 'Constraint selected background of filter'
+            },
+            {
+                name: 'treetable.filter.constraint.selectedFocusBackground',
+                token: 'treetable.filter.constraint.selected.focus.background',
+                variable: '--p-treetable-filter-constraint-selected-focus-background',
+                description: 'Constraint selected focus background of filter'
+            },
+            {
+                name: 'treetable.filter.constraint.color',
+                token: 'treetable.filter.constraint.color',
+                variable: '--p-treetable-filter-constraint-color',
+                description: 'Constraint color of filter'
+            },
+            {
+                name: 'treetable.filter.constraint.focusColor',
+                token: 'treetable.filter.constraint.focus.color',
+                variable: '--p-treetable-filter-constraint-focus-color',
+                description: 'Constraint focus color of filter'
+            },
+            {
+                name: 'treetable.filter.constraint.selectedColor',
+                token: 'treetable.filter.constraint.selected.color',
+                variable: '--p-treetable-filter-constraint-selected-color',
+                description: 'Constraint selected color of filter'
+            },
+            {
+                name: 'treetable.filter.constraint.selectedFocusColor',
+                token: 'treetable.filter.constraint.selected.focus.color',
+                variable: '--p-treetable-filter-constraint-selected-focus-color',
+                description: 'Constraint selected focus color of filter'
+            },
+            {
+                name: 'treetable.filter.constraint.separator.borderColor',
+                token: 'treetable.filter.constraint.separator.border.color',
+                variable: '--p-treetable-filter-constraint-separator-border-color',
+                description: 'Constraint separator border color of filter'
+            },
+            {
+                name: 'treetable.filter.constraint.padding',
+                token: 'treetable.filter.constraint.padding',
+                variable: '--p-treetable-filter-constraint-padding',
+                description: 'Constraint padding of filter'
+            },
+            {
+                name: 'treetable.filter.constraint.borderRadius',
+                token: 'treetable.filter.constraint.border.radius',
+                variable: '--p-treetable-filter-constraint-border-radius',
+                description: 'Constraint border radius of filter'
+            },
+            {
                 name: 'treetable.paginatorTop.borderColor',
                 token: 'treetable.paginator.top.border.color',
                 variable: '--p-treetable-paginator-top-border-color',

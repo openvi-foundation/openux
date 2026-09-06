@@ -16,6 +16,7 @@ declare const resizeIndicator: TreeTableTokenSections.ResizeIndicator;
 declare const sortIcon: TreeTableTokenSections.SortIcon;
 declare const loadingIcon: TreeTableTokenSections.LoadingIcon;
 declare const nodeToggleButton: TreeTableTokenSections.NodeToggleButton;
+declare const filter: TreeTableTokenSections.Filter;
 declare const paginatorTop: TreeTableTokenSections.PaginatorTop;
 declare const paginatorBottom: TreeTableTokenSections.PaginatorBottom;
 declare const colorScheme: TreeTableTokenSections.ColorScheme;
@@ -35,9 +36,10 @@ declare const _default: {
     sortIcon: TreeTableTokenSections.SortIcon;
     loadingIcon: TreeTableTokenSections.LoadingIcon;
     nodeToggleButton: TreeTableTokenSections.NodeToggleButton;
+    filter: TreeTableTokenSections.Filter;
     paginatorTop: TreeTableTokenSections.PaginatorTop;
     paginatorBottom: TreeTableTokenSections.PaginatorBottom;
     colorScheme: TreeTableTokenSections.ColorScheme;
 };
 
-export { bodyCell, colorScheme, columnFooter, columnResizer, columnTitle, css, _default as default, footer, footerCell, header, headerCell, loadingIcon, nodeToggleButton, paginatorBottom, paginatorTop, resizeIndicator, root, row, sortIcon };
+export { bodyCell, colorScheme, columnFooter, columnResizer, columnTitle, css, _default as default, filter, footer, footerCell, header, headerCell, loadingIcon, nodeToggleButton, paginatorBottom, paginatorTop, resizeIndicator, root, row, sortIcon };

@@ -114,6 +114,128 @@ export const style = /*css*/ `
         z-index: 2;
     }
 
+    .p-treetable-inline-filter {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        gap: dt('treetable.filter.inline.gap');
+    }
+
+    .p-treetable-inline-filter .p-treetable-filter-element-container {
+        flex: 1 1 auto;
+        width: 1%;
+    }
+
+    .p-treetable-filter-overlay {
+        background: dt('treetable.filter.overlay.select.background');
+        color: dt('treetable.filter.overlay.select.color');
+        border: 1px solid dt('treetable.filter.overlay.select.border.color');
+        border-radius: dt('treetable.filter.overlay.select.border.radius');
+        box-shadow: dt('treetable.filter.overlay.select.shadow');
+        min-width: 12.5rem;
+    }
+
+    .p-treetable-filter-constraint-list {
+        margin: 0;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        padding: dt('treetable.filter.constraint.list.padding');
+        gap: dt('treetable.filter.constraint.list.gap');
+    }
+
+    .p-treetable-filter-constraint {
+        padding: dt('treetable.filter.constraint.padding');
+        color: dt('treetable.filter.constraint.color');
+        border-radius: dt('treetable.filter.constraint.border.radius');
+        cursor: pointer;
+        transition:
+            background dt('treetable.transition.duration'),
+            color dt('treetable.transition.duration'),
+            border-color dt('treetable.transition.duration'),
+            box-shadow dt('treetable.transition.duration');
+    }
+
+    .p-treetable-filter-constraint-selected {
+        background: dt('treetable.filter.constraint.selected.background');
+        color: dt('treetable.filter.constraint.selected.color');
+    }
+
+    .p-treetable-filter-constraint:not(.p-treetable-filter-constraint-selected):not(.p-disabled):hover {
+        background: dt('treetable.filter.constraint.focus.background');
+        color: dt('treetable.filter.constraint.focus.color');
+    }
+
+    .p-treetable-filter-constraint:focus-visible {
+        outline: 0 none;
+        background: dt('treetable.filter.constraint.focus.background');
+        color: dt('treetable.filter.constraint.focus.color');
+    }
+
+    .p-treetable-filter-constraint-selected:focus-visible {
+        outline: 0 none;
+        background: dt('treetable.filter.constraint.selected.focus.background');
+        color: dt('treetable.filter.constraint.selected.focus.color');
+    }
+
+    .p-treetable-filter-constraint-separator {
+        border-block-start: 1px solid dt('treetable.filter.constraint.separator.border.color');
+    }
+
+    .p-treetable-popover-filter {
+        display: inline-flex;
+        margin-inline-start: auto;
+    }
+
+    .p-treetable-filter-overlay-popover {
+        background: dt('treetable.filter.overlay.popover.background');
+        color: dt('treetable.filter.overlay.popover.color');
+        border: 1px solid dt('treetable.filter.overlay.popover.border.color');
+        border-radius: dt('treetable.filter.overlay.popover.border.radius');
+        box-shadow: dt('treetable.filter.overlay.popover.shadow');
+        min-width: 12.5rem;
+        padding: dt('treetable.filter.overlay.popover.padding');
+        display: flex;
+        flex-direction: column;
+        gap: dt('treetable.filter.overlay.popover.gap');
+    }
+
+    .p-treetable-filter-operator-dropdown {
+        width: 100%;
+    }
+
+    .p-treetable-filter-rule-list,
+    .p-treetable-filter-rule {
+        display: flex;
+        flex-direction: column;
+        gap: dt('treetable.filter.overlay.popover.gap');
+    }
+
+    .p-treetable-filter-rule {
+        border-block-end: 1px solid dt('treetable.filter.rule.border.color');
+        padding-bottom: dt('treetable.filter.overlay.popover.gap');
+    }
+
+    .p-treetable-filter-rule:last-child {
+        border-block-end: 0 none;
+        padding-bottom: 0;
+    }
+
+    .p-treetable-filter-add-rule-button {
+        width: 100%;
+    }
+
+    .p-treetable-filter-remove-rule-button {
+        width: 100%;
+    }
+
+    .p-treetable-filter-buttonbar {
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
     .p-treetable-paginator-top {
         border-color: dt('treetable.paginator.top.border.color');
         border-style: solid;

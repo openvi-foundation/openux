@@ -112,6 +112,47 @@ export const nodeToggleButton: TreeTableTokenSections.NodeToggleButton = {
     }
 };
 
+export const filter: TreeTableTokenSections.Filter = {
+    inlineGap: '0.5rem',
+    overlaySelect: {
+        background: '{overlay.select.background}',
+        borderColor: '{overlay.select.border.color}',
+        borderRadius: '{overlay.select.border.radius}',
+        color: '{overlay.select.color}',
+        shadow: '{overlay.select.shadow}'
+    },
+    overlayPopover: {
+        background: '{overlay.popover.background}',
+        borderColor: '{overlay.popover.border.color}',
+        borderRadius: '{overlay.popover.border.radius}',
+        color: '{overlay.popover.color}',
+        shadow: '{overlay.popover.shadow}',
+        padding: '{overlay.popover.padding}',
+        gap: '0.5rem'
+    },
+    rule: {
+        borderColor: '{content.border.color}'
+    },
+    constraintList: {
+        padding: '{list.padding}',
+        gap: '{list.gap}'
+    },
+    constraint: {
+        focusBackground: '{list.option.focus.background}',
+        selectedBackground: '{list.option.selected.background}',
+        selectedFocusBackground: '{list.option.selected.focus.background}',
+        color: '{list.option.color}',
+        focusColor: '{list.option.focus.color}',
+        selectedColor: '{list.option.selected.color}',
+        selectedFocusColor: '{list.option.selected.focus.color}',
+        separator: {
+            borderColor: '{content.border.color}'
+        },
+        padding: '{list.option.padding}',
+        borderRadius: '{list.option.border.radius}'
+    }
+};
+
 export const paginatorTop: TreeTableTokenSections.PaginatorTop = {
     borderColor: '{content.border.color}',
     borderWidth: '0 0 1px 0'
@@ -156,6 +197,7 @@ export default {
     sortIcon,
     loadingIcon,
     nodeToggleButton,
+    filter,
     paginatorTop,
     paginatorBottom,
     colorScheme

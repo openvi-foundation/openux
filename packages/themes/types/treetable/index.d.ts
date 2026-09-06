@@ -465,6 +465,195 @@ export declare namespace TreeTableTokenSections {
         };
     }
 
+    interface Filter {
+        /**
+         * Inline gap of filter
+         *
+         * @designToken treetable.filter.inline.gap
+         */
+        inlineGap?: string;
+        /**
+         * Overlay select of filter
+         */
+        overlaySelect?: {
+            /**
+             * Overlay select background of filter
+             *
+             * @designToken treetable.filter.overlay.select.background
+             */
+            background?: string;
+            /**
+             * Overlay select border color of filter
+             *
+             * @designToken treetable.filter.overlay.select.border.color
+             */
+            borderColor?: string;
+            /**
+             * Overlay select border radius of filter
+             *
+             * @designToken treetable.filter.overlay.select.border.radius
+             */
+            borderRadius?: string;
+            /**
+             * Overlay select color of filter
+             *
+             * @designToken treetable.filter.overlay.select.color
+             */
+            color?: string;
+            /**
+             * Overlay select shadow of filter
+             *
+             * @designToken treetable.filter.overlay.select.shadow
+             */
+            shadow?: string;
+        };
+        /**
+         * Overlay popover of filter
+         */
+        overlayPopover?: {
+            /**
+             * Overlay popover background of filter
+             *
+             * @designToken treetable.filter.overlay.popover.background
+             */
+            background?: string;
+            /**
+             * Overlay popover border color of filter
+             *
+             * @designToken treetable.filter.overlay.popover.border.color
+             */
+            borderColor?: string;
+            /**
+             * Overlay popover border radius of filter
+             *
+             * @designToken treetable.filter.overlay.popover.border.radius
+             */
+            borderRadius?: string;
+            /**
+             * Overlay popover color of filter
+             *
+             * @designToken treetable.filter.overlay.popover.color
+             */
+            color?: string;
+            /**
+             * Overlay popover shadow of filter
+             *
+             * @designToken treetable.filter.overlay.popover.shadow
+             */
+            shadow?: string;
+            /**
+             * Overlay popover padding of filter
+             *
+             * @designToken treetable.filter.overlay.popover.padding
+             */
+            padding?: string;
+            /**
+             * Overlay popover gap of filter
+             *
+             * @designToken treetable.filter.overlay.popover.gap
+             */
+            gap?: string;
+        };
+        /**
+         * Rule of filter
+         */
+        rule?: {
+            /**
+             * Rule border color of filter
+             *
+             * @designToken treetable.filter.rule.border.color
+             */
+            borderColor?: string;
+        };
+        /**
+         * Constraint list of filter
+         */
+        constraintList?: {
+            /**
+             * Constraint list padding of filter
+             *
+             * @designToken treetable.filter.constraint.list.padding
+             */
+            padding?: string;
+            /**
+             * Constraint list gap of filter
+             *
+             * @designToken treetable.filter.constraint.list.gap
+             */
+            gap?: string;
+        };
+        /**
+         * Constraint of filter
+         */
+        constraint?: {
+            /**
+             * Constraint focus background of filter
+             *
+             * @designToken treetable.filter.constraint.focus.background
+             */
+            focusBackground?: string;
+            /**
+             * Constraint selected background of filter
+             *
+             * @designToken treetable.filter.constraint.selected.background
+             */
+            selectedBackground?: string;
+            /**
+             * Constraint selected focus background of filter
+             *
+             * @designToken treetable.filter.constraint.selected.focus.background
+             */
+            selectedFocusBackground?: string;
+            /**
+             * Constraint color of filter
+             *
+             * @designToken treetable.filter.constraint.color
+             */
+            color?: string;
+            /**
+             * Constraint focus color of filter
+             *
+             * @designToken treetable.filter.constraint.focus.color
+             */
+            focusColor?: string;
+            /**
+             * Constraint selected color of filter
+             *
+             * @designToken treetable.filter.constraint.selected.color
+             */
+            selectedColor?: string;
+            /**
+             * Constraint selected focus color of filter
+             *
+             * @designToken treetable.filter.constraint.selected.focus.color
+             */
+            selectedFocusColor?: string;
+            /**
+             * Constraint separator of filter
+             */
+            separator?: {
+                /**
+                 * Constraint separator border color of filter
+                 *
+                 * @designToken treetable.filter.constraint.separator.border.color
+                 */
+                borderColor?: string;
+            };
+            /**
+             * Constraint padding of filter
+             *
+             * @designToken treetable.filter.constraint.padding
+             */
+            padding?: string;
+            /**
+             * Constraint border radius of filter
+             *
+             * @designToken treetable.filter.constraint.border.radius
+             */
+            borderRadius?: string;
+        };
+    }
+
     interface PaginatorTop {
         /**
          * Border color of paginator top
@@ -576,6 +765,10 @@ export interface TreeTableDesignTokens extends DesignTokens<TreeTableDesignToken
      * Used to pass tokens of the node toggle button section
      */
     nodeToggleButton?: TreeTableTokenSections.NodeToggleButton;
+    /**
+     * Used to pass tokens of the filter section
+     */
+    filter?: TreeTableTokenSections.Filter;
     /**
      * Used to pass tokens of the paginator top section
      */
