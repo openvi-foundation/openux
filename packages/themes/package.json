@@ -1,6 +1,6 @@
 {
     "name": "@openuxkit/themes",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "author": "OpenVi Foundation",
     "description": "Theme presets and theming API for OpenVue and other OpenVi Foundation projects",
     "keywords": ["themes", "css", "style utilities", "design tokens", "openvue", "openux", "openuxkit"],

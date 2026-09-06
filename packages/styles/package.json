@@ -1,6 +1,6 @@
 {
     "name": "@openuxkit/styles",
-    "version": "1.0.2",
+    "version": "1.1.0",
     "author": "OpenVi Foundation",
     "description": "Component base styles for OpenVue and other OpenVi Foundation projects",
     "keywords": ["styles", "css", "style utilities", "openvue", "openux", "openuxkit"],
