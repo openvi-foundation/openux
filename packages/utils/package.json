@@ -1,6 +1,6 @@
 {
     "name": "@openuxkit/utils",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "author": "OpenVi Foundation",
     "description": "Utility functions and helpers for OpenVue and other OpenVi Foundation projects",
     "keywords": ["utilities", "helpers", "openvue", "openux", "openuxkit"],

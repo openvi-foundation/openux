@@ -3,7 +3,9 @@
 The framework-agnostic UI foundation behind [OpenVue](https://github.com/openvi-foundation/openvue) — permanently MIT.
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+
 [![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors-)
+
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 OpenUXKit is a fork of [PrimeUIX](https://github.com/primefaces/primeuix), taken from the last MIT-licensed source and maintained independently by the OpenVi Foundation. It exists so that OpenVue owns its own styling and theming engine end to end, rather than resolving it at runtime from a scope it does not control.
@@ -32,6 +34,10 @@ pnpm test                 # run the test suites
 ```
 
 `submodules/` holds read-only upstream clones kept purely for reference. They are not source, are not built, and are not published.
+
+## Contributing
+
+Issues and pull requests are welcome. Start with the [contributing guide](CONTRIBUTING.md) for the development setup and how changes get reviewed. To report a security issue, follow the [security policy](SECURITY.md) rather than opening an issue.
 
 ## Contributors ✨
 
