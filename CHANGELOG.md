@@ -8,6 +8,14 @@ Each `@openuxkit/*` package is versioned and released on its own, so every entry
 
 ## [Unreleased]
 
+### Added
+
+- `@openuxkit/themes`: Nide, a fifth preset built on Aura's tokens. A neutral palette with a near-black primary (near-white in dark mode), hairline borders, soft 3px focus rings, segmented Tabs and SelectButton, card-style toasts and bordered messages. Controls are compact: 14px text in 36px buttons and fields at a 16px root. Import it from `@openuxkit/themes/nide`, or load `umd/nide.js` as `OpenUXKit.Themes.Nide`. It moves here from OpenVue, which re-exports it from `@openvue/themes/nide`.
+
+### Changed
+
+- `@openuxkit/mcp` now depends on zod 4 (`^4.6.7`) and `@modelcontextprotocol/sdk` `^1.32.2`. zod 3 has no fix for [GHSA-mrhx-c7xc-m3w5](https://github.com/advisories/GHSA-mrhx-c7xc-m3w5), and SDK releases before 1.32 carry several high advisories. Tools you add with `registerTool` to the server `createPrimeMcpServer` returns need zod 4 schemas.
+
 ## [@openuxkit/utils 1.0.1] - 2026-10-05
 
 ### Fixed

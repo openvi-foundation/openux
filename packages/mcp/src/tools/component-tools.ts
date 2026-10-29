@@ -680,7 +680,7 @@ export function registerComponentTools(server: McpServer, data: ComponentsData, 
             description: `Validate if props exist and are correctly used for a ${config.frameworkName} component`,
             inputSchema: {
                 component: z.string().describe('Component name'),
-                props: z.record(z.unknown()).describe('Props object to validate')
+                props: z.record(z.string(), z.unknown()).describe('Props object to validate')
             }
         },
         async ({ component, props }) => {
