@@ -12,17 +12,17 @@ OpenUXKit is a fork of [PrimeUIX](https://github.com/primefaces/primeuix), taken
 
 ## Packages
 
-| Package                                    | Description                                                    |
-| ------------------------------------------ | -------------------------------------------------------------- |
-| [`@openuxkit/utils`](packages/utils)       | DOM, object, event bus, uuid and z-index helpers               |
-| [`@openuxkit/styled`](packages/styled)     | CSS-in-JS theming engine                                       |
-| [`@openuxkit/styles`](packages/styles)     | Per-component base CSS                                         |
-| [`@openuxkit/themes`](packages/themes)     | Theme presets (aura, lara, material, nora) and the theming API |
-| [`@openuxkit/forms`](packages/forms)       | Form state and validation resolvers                            |
-| [`@openuxkit/locale`](packages/locale)     | Locale and i18n utilities                                      |
-| [`@openuxkit/motion`](packages/motion)     | Motion and transition utilities                                |
-| [`@openuxkit/headless`](packages/headless) | Headless UI utilities                                          |
-| [`@openuxkit/mcp`](packages/mcp)           | Shared Model Context Protocol server core                      |
+| Package                                    | Description                                                          |
+| ------------------------------------------ | -------------------------------------------------------------------- |
+| [`@openuxkit/utils`](packages/utils)       | DOM, object, event bus, uuid and z-index helpers                     |
+| [`@openuxkit/styled`](packages/styled)     | CSS-in-JS theming engine                                             |
+| [`@openuxkit/styles`](packages/styles)     | Per-component base CSS                                               |
+| [`@openuxkit/themes`](packages/themes)     | Theme presets (aura, lara, material, nide, nora) and the theming API |
+| [`@openuxkit/forms`](packages/forms)       | Form state and validation resolvers                                  |
+| [`@openuxkit/locale`](packages/locale)     | Locale and i18n utilities                                            |
+| [`@openuxkit/motion`](packages/motion)     | Motion and transition utilities                                      |
+| [`@openuxkit/headless`](packages/headless) | Headless UI utilities                                                |
+| [`@openuxkit/mcp`](packages/mcp)           | Shared Model Context Protocol server core                            |
 
 ## Development
 
