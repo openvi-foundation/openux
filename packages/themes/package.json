@@ -1,9 +1,17 @@
 {
     "name": "@openuxkit/themes",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "author": "OpenVi Foundation",
     "description": "Theme presets and theming API for OpenVue and other OpenVi Foundation projects",
-    "keywords": ["themes", "css", "style utilities", "design tokens", "openvue", "openux", "openuxkit"],
+    "keywords": [
+        "themes",
+        "css",
+        "style utilities",
+        "design tokens",
+        "openvue",
+        "openux",
+        "openuxkit"
+    ],
     "license": "MIT",
     "repository": {
         "type": "git",
@@ -44,7 +52,14 @@
         "access": "public"
     },
     "sideEffects": false,
-    "files": ["dist", "umd", "tokens", "types", "README.md", "LICENSE"],
+    "files": [
+        "dist",
+        "umd",
+        "tokens",
+        "types",
+        "README.md",
+        "LICENSE"
+    ],
     "scripts": {
         "build": "cross-env NODE_ENV=production INPUT_DIR=src/ OUTPUT_DIR=dist/ pnpm run build:package",
         "build:dev": "cross-env NODE_ENV=development INPUT_DIR=src/ OUTPUT_DIR=dist/ pnpm run build:dev:package",
