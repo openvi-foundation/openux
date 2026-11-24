@@ -17,5 +17,11 @@ export default definePreset<Record<string, unknown>>(aura, {
                 background: '{surface.700}'
             }
         }
-    }
+    },
+    css: `
+.p-scrollpanel {
+    font-size: 0.875rem;
+    line-height: 1.4286;
+}
+`
 } satisfies ScrollPanelDesignTokens) as ScrollPanelDesignTokens;

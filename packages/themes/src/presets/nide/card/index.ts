@@ -30,12 +30,18 @@ export default definePreset<Record<string, unknown>>(aura, {
         }
     },
     css: `
+/* Body text at 14px like the rest of Nide. The unitless line height keeps a 20px line for 14px text
+   and scales for larger text placed inside, such as a heading. */
 .p-card {
     border: 1px solid dt('content.border.color');
+    font-size: 0.875rem;
+    line-height: 1.4286;
 }
 
 .p-card-title {
-    line-height: 1;
+    line-height: 1.375;
+    letter-spacing: -0.015em;
+    text-wrap: balance;
 }
 
 .p-card-subtitle {

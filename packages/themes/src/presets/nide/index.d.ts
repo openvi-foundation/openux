@@ -11,3 +11,11 @@ import type { Preset } from '@openuxkit/themes/types';
  */
 declare const _default: Preset<NideBaseDesignTokens>;
 export default _default;
+
+/**
+ * Nide with a brand colour as primary, e.g. `nideBrand('indigo')`.
+ * Light mode uses the 600 shade with white text, dark mode the 400 shade.
+ *
+ * @param color Name of a primitive palette, such as `'indigo'` or `'emerald'`.
+ */
+export declare function nideBrand(color: string): Preset<NideBaseDesignTokens>;

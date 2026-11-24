@@ -1,5 +1,6 @@
 import { definePreset } from '@openuxkit/styled';
 import aura from '@openuxkit/themes/aura/confirmpopup';
+import { overlayMotion } from '../motion';
 import type { ConfirmPopupDesignTokens } from '@openuxkit/themes/types/confirmpopup';
 
 export default definePreset<Record<string, unknown>>(aura, {
@@ -12,7 +13,7 @@ export default definePreset<Record<string, unknown>>(aura, {
     icon: {
         size: '1.25rem'
     },
-    css: `
+    css: `${overlayMotion}
 .p-confirmpopup.p-component::before,
 .p-confirmpopup.p-component::after {
     display: none;

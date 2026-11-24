@@ -1,5 +1,6 @@
 import { definePreset } from '@openuxkit/styled';
 import aura from '@openuxkit/themes/aura/datepicker';
+import { overlayMotion } from '../motion';
 import type { DatePickerDesignTokens } from '@openuxkit/themes/types/datepicker';
 
 export default definePreset<Record<string, unknown>>(aura, {
@@ -9,7 +10,7 @@ export default definePreset<Record<string, unknown>>(aura, {
     dropdown: {
         width: '2.25rem'
     },
-    css: `
+    css: `${overlayMotion}
 .p-datepicker-panel,
 .p-datepicker-day-view,
 .p-datepicker-time-picker span {
@@ -18,7 +19,7 @@ export default definePreset<Record<string, unknown>>(aura, {
 }
 
 .p-datepicker-weekday {
-    font-size: 0.8rem;
+    font-size: 0.75rem;
 }
 `,
     weekDay: {

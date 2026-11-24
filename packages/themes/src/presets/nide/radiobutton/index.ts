@@ -9,8 +9,9 @@ export default definePreset<Record<string, unknown>>(aura, {
         checkedBackground: '{form.field.background}',
         checkedHoverBackground: '{form.field.background}',
         focusBorderColor: '{form.field.focus.border.color}',
-        checkedBorderColor: '{form.field.border.color}',
-        checkedHoverBorderColor: '{form.field.hover.border.color}',
+        // A checked radio keeps a primary ring, like a checked checkbox is filled with primary.
+        checkedBorderColor: '{primary.color}',
+        checkedHoverBorderColor: '{primary.hover.color}',
         checkedFocusBorderColor: '{form.field.focus.border.color}',
         sm: {
             width: '1rem',
@@ -30,6 +31,20 @@ export default definePreset<Record<string, unknown>>(aura, {
         },
         lg: {
             size: '0.75rem'
+        }
+    },
+    colorScheme: {
+        light: {
+            root: {
+                borderColor: '{surface.400}',
+                hoverBorderColor: '{surface.500}'
+            }
+        },
+        dark: {
+            root: {
+                borderColor: 'rgba(255, 255, 255, 0.3)',
+                hoverBorderColor: 'rgba(255, 255, 255, 0.45)'
+            }
         }
     }
 } satisfies RadioButtonDesignTokens) as RadioButtonDesignTokens;

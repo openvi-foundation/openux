@@ -1,12 +1,13 @@
 import { definePreset } from '@openuxkit/styled';
 import aura from '@openuxkit/themes/aura/autocomplete';
+import { instantHover, overlayMotion } from '../motion';
 import type { AutoCompleteDesignTokens } from '@openuxkit/themes/types/autocomplete';
 
 export default definePreset<Record<string, unknown>>(aura, {
     dropdown: {
         width: '2.25rem'
     },
-    css: `
+    css: `${overlayMotion}${instantHover('li.p-autocomplete-option')}
 .p-autocomplete-input-chip input {
     font-size: 0.875rem;
 }

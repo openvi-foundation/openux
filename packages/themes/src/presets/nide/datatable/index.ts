@@ -1,9 +1,10 @@
 import { definePreset } from '@openuxkit/styled';
 import aura from '@openuxkit/themes/aura/datatable';
+import { instantHover, overlayMotion } from '../motion';
 import type { DataTableDesignTokens } from '@openuxkit/themes/types/datatable';
 
 export default definePreset<Record<string, unknown>>(aura, {
-    css: `
+    css: `${overlayMotion}${instantHover('.p-datatable .p-datatable-tbody > tr, li.p-datatable-filter-constraint, th.p-datatable-header-cell, thead.p-datatable-thead > tr > th')}
 .p-datatable {
     font-size: 0.875rem;
     line-height: 1.25rem;
@@ -41,8 +42,10 @@ export default definePreset<Record<string, unknown>>(aura, {
             root: {
                 borderColor: '{content.border.color}'
             },
+            // Stripe, hover and selected are three distinct steps; hover used to equal the stripe.
             row: {
-                hoverBackground: 'color-mix(in srgb, {surface.100}, transparent 50%)',
+                hoverBackground: '{surface.100}',
+                selectedBackground: 'color-mix(in srgb, {surface.200}, {surface.100})',
                 stripedBackground: '{surface.50}'
             },
             bodyCell: {
@@ -54,7 +57,8 @@ export default definePreset<Record<string, unknown>>(aura, {
                 borderColor: '{content.border.color}'
             },
             row: {
-                hoverBackground: 'color-mix(in srgb, {surface.800}, transparent 50%)',
+                hoverBackground: '{surface.800}',
+                selectedBackground: 'color-mix(in srgb, {surface.800}, {surface.700})',
                 stripedBackground: 'color-mix(in srgb, {surface.800}, transparent 70%)'
             },
             bodyCell: {

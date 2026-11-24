@@ -1,5 +1,8 @@
+import { definePreset } from '@openuxkit/styled';
 import type { Preset } from '@openuxkit/themes/types';
 import type { NideBaseDesignTokens } from './base/index.d';
+
+import aura from '@openuxkit/themes/aura';
 
 import accordion from '@openuxkit/themes/nide/accordion';
 import autocomplete from '@openuxkit/themes/nide/autocomplete';
@@ -91,9 +94,11 @@ import treeselect from '@openuxkit/themes/nide/treeselect';
 import treetable from '@openuxkit/themes/nide/treetable';
 import virtualscroller from '@openuxkit/themes/nide/virtualscroller';
 
-export default {
+const Nide = {
     ...base,
     components: {
+        // Any component Nide does not override, including ones added to Aura later, falls back to Aura.
+        ...aura.components,
         accordion,
         autocomplete,
         avatar,
@@ -184,3 +189,39 @@ export default {
         virtualscroller
     }
 } satisfies Preset<NideBaseDesignTokens>;
+
+export default Nide;
+
+const shades = [50, 100, 200, 300, 400, 500, 600, 700, 800, 900, 950];
+
+/**
+ * Nide with a brand colour as primary, e.g. `nideBrand('indigo')`.
+ *
+ * Nide maps primary to its 900 shade, which suits the neutral default but turns a brand colour
+ * into near-navy. A brand palette gets 600 with white text in light mode and 400 in dark mode.
+ */
+export function nideBrand(color: string): Preset<NideBaseDesignTokens> {
+    return definePreset<Record<string, unknown>>(Nide, {
+        semantic: {
+            primary: Object.fromEntries(shades.map((shade) => [shade, `{${color}.${shade}}`])),
+            colorScheme: {
+                light: {
+                    primary: {
+                        color: '{primary.600}',
+                        contrastColor: '#ffffff',
+                        hoverColor: '{primary.700}',
+                        activeColor: '{primary.800}'
+                    }
+                },
+                dark: {
+                    primary: {
+                        color: '{primary.400}',
+                        contrastColor: '{primary.950}',
+                        hoverColor: '{primary.300}',
+                        activeColor: '{primary.200}'
+                    }
+                }
+            }
+        }
+    }) as Preset<NideBaseDesignTokens>;
+}

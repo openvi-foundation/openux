@@ -37,7 +37,8 @@ export default definePreset<Record<string, unknown>>(aura, {
         focusRing: {
             width: '3px',
             style: 'solid',
-            color: 'color-mix(in srgb, {surface.400}, transparent 50%)',
+            // 3.16:1 on white; the old {surface.400} at 50% was 1.53:1 (WCAG 1.4.11 needs 3:1).
+            color: 'color-mix(in srgb, {surface.950}, transparent 55%)',
             offset: '0',
             shadow: 'none'
         },
@@ -155,7 +156,7 @@ export default definePreset<Record<string, unknown>>(aura, {
                     focusColor: '{surface.900}'
                 },
                 focusRing: {
-                    color: 'color-mix(in srgb, {surface.400}, transparent 50%)'
+                    color: 'color-mix(in srgb, {surface.950}, transparent 55%)'
                 },
                 mask: {
                     background: 'rgba(0, 0, 0, 0.5)',
@@ -168,7 +169,7 @@ export default definePreset<Record<string, unknown>>(aura, {
                     filledHoverBackground: '{surface.100}',
                     filledFocusBackground: '{surface.100}',
                     borderColor: '{surface.200}',
-                    hoverBorderColor: '{surface.200}',
+                    hoverBorderColor: '{surface.300}',
                     focusBorderColor: '{surface.400}',
                     invalidBorderColor: '{red.600}',
                     color: '{surface.950}',
@@ -214,9 +215,10 @@ export default definePreset<Record<string, unknown>>(aura, {
                 },
                 list: {
                     option: {
+                        // Selected sits one step darker than focus so the two never look the same.
                         focusBackground: '{surface.100}',
-                        selectedBackground: '{highlight.background}',
-                        selectedFocusBackground: '{highlight.focus.background}',
+                        selectedBackground: '{surface.200}',
+                        selectedFocusBackground: '{surface.200}',
                         color: '{text.color}',
                         focusColor: '{text.hover.color}',
                         selectedColor: '{highlight.color}',
@@ -269,8 +271,9 @@ export default definePreset<Record<string, unknown>>(aura, {
                     color: '{surface.50}',
                     focusColor: '{surface.50}'
                 },
+                // 3.72:1 on {surface.900}; the old {surface.500} at 50% was 1.87:1.
                 focusRing: {
-                    color: 'color-mix(in srgb, {surface.500}, transparent 50%)'
+                    color: 'color-mix(in srgb, {surface.50}, transparent 60%)'
                 },
                 mask: {
                     background: 'rgba(0, 0, 0, 0.5)',
@@ -284,7 +287,7 @@ export default definePreset<Record<string, unknown>>(aura, {
                     filledHoverBackground: '{surface.800}',
                     filledFocusBackground: '{surface.800}',
                     borderColor: 'rgba(255, 255, 255, 0.15)',
-                    hoverBorderColor: 'rgba(255, 255, 255, 0.15)',
+                    hoverBorderColor: 'rgba(255, 255, 255, 0.25)',
                     focusBorderColor: '{surface.500}',
                     invalidBorderColor: '{red.400}',
                     color: '{surface.50}',
@@ -331,8 +334,8 @@ export default definePreset<Record<string, unknown>>(aura, {
                 list: {
                     option: {
                         focusBackground: '{surface.800}',
-                        selectedBackground: '{highlight.background}',
-                        selectedFocusBackground: '{highlight.focus.background}',
+                        selectedBackground: '{surface.700}',
+                        selectedFocusBackground: '{surface.700}',
                         color: '{text.color}',
                         focusColor: '{text.hover.color}',
                         selectedColor: '{highlight.color}',

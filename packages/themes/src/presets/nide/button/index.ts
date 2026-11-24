@@ -308,10 +308,11 @@ export default definePreset<Record<string, unknown>>(aura, {
                         shadow: 'none'
                     }
                 },
+                // Opaque like Badge, so the colour does not change with the surface underneath.
                 danger: {
-                    background: 'color-mix(in srgb, {red.400}, transparent 40%)',
-                    hoverBackground: 'color-mix(in srgb, {red.400}, transparent 30%)',
-                    activeBackground: 'color-mix(in srgb, {red.400}, transparent 20%)',
+                    background: 'color-mix(in srgb, {red.400}, {surface.950} 40%)',
+                    hoverBackground: 'color-mix(in srgb, {red.400}, {surface.950} 30%)',
+                    activeBackground: 'color-mix(in srgb, {red.400}, {surface.950} 20%)',
                     borderColor: 'transparent',
                     hoverBorderColor: 'transparent',
                     activeBorderColor: 'transparent',

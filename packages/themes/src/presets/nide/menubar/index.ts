@@ -1,5 +1,6 @@
 import { definePreset } from '@openuxkit/styled';
 import aura from '@openuxkit/themes/aura/menubar';
+import { instantHover } from '../motion';
 import type { MenubarDesignTokens } from '@openuxkit/themes/types/menubar';
 
 export default definePreset<Record<string, unknown>>(aura, {
@@ -17,7 +18,7 @@ export default definePreset<Record<string, unknown>>(aura, {
     mobileButton: {
         borderRadius: '{border.radius.md}'
     },
-    css: `
+    css: `${instantHover('div.p-menubar-item-content')}
 .p-menubar {
     box-shadow: dt('form.field.shadow');
     font-size: 0.875rem;

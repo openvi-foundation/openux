@@ -1,9 +1,10 @@
 import { definePreset } from '@openuxkit/styled';
 import aura from '@openuxkit/themes/aura/treetable';
+import { instantHover, overlayMotion } from '../motion';
 import type { TreeTableDesignTokens } from '@openuxkit/themes/types/treetable';
 
 export default definePreset<Record<string, unknown>>(aura, {
-    css: `
+    css: `${overlayMotion}${instantHover('.p-treetable .p-treetable-tbody > tr, th.p-treetable-header-cell, .p-treetable thead.p-treetable-thead > tr > th')}
 .p-treetable {
     font-size: 0.875rem;
     line-height: 1.25rem;
@@ -42,7 +43,8 @@ export default definePreset<Record<string, unknown>>(aura, {
                 borderColor: '{content.border.color}'
             },
             row: {
-                hoverBackground: 'color-mix(in srgb, {surface.100}, transparent 50%)'
+                hoverBackground: '{surface.100}',
+                selectedBackground: 'color-mix(in srgb, {surface.200}, {surface.100})'
             },
             bodyCell: {
                 selectedBorderColor: '{content.border.color}'
@@ -53,7 +55,8 @@ export default definePreset<Record<string, unknown>>(aura, {
                 borderColor: '{content.border.color}'
             },
             row: {
-                hoverBackground: 'color-mix(in srgb, {surface.800}, transparent 50%)'
+                hoverBackground: '{surface.800}',
+                selectedBackground: 'color-mix(in srgb, {surface.800}, {surface.700})'
             },
             bodyCell: {
                 selectedBorderColor: '{content.border.color}'

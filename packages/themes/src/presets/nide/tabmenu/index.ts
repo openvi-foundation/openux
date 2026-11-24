@@ -16,5 +16,11 @@ export default definePreset<Record<string, unknown>>(aura, {
         height: '2px',
         bottom: '-1px',
         background: '{text.color}'
-    }
+    },
+    css: `
+.p-tabmenu {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+}
+`
 } satisfies TabmenuDesignTokens) as TabmenuDesignTokens;

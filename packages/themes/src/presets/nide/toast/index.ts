@@ -51,11 +51,11 @@ export default definePreset<Record<string, unknown>>(aura, {
     },
     summary: {
         fontWeight: '500',
-        fontSize: '0.8125rem'
+        fontSize: '0.875rem'
     },
     detail: {
         fontWeight: '400',
-        fontSize: '0.8125rem'
+        fontSize: '0.875rem'
     },
     closeButton: {
         width: '1.5rem',
@@ -101,7 +101,24 @@ export default definePreset<Record<string, unknown>>(aura, {
             }
         }
     },
+    // The card stays neutral and the icon carries the severity. The 600 shades keep 3:1 in both schemes.
     css: `
+.p-toast-message-success .p-toast-message-icon {
+    color: dt('green.600');
+}
+
+.p-toast-message-info .p-toast-message-icon {
+    color: dt('blue.600');
+}
+
+.p-toast-message-warn .p-toast-message-icon {
+    color: dt('amber.600');
+}
+
+.p-toast-message-error .p-toast-message-icon {
+    color: dt('red.600');
+}
+
 .p-toast-message-content {
     align-items: center;
 }

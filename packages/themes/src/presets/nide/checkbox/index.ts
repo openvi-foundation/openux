@@ -26,5 +26,38 @@ export default definePreset<Record<string, unknown>>(aura, {
         lg: {
             size: '0.875rem'
         }
+    },
+    css: `
+.p-checkbox-checked .p-checkbox-icon {
+    animation: nide-check-pop 180ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@keyframes nide-check-pop {
+    from {
+        transform: scale(0.4);
+        opacity: 0;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .p-checkbox-checked .p-checkbox-icon {
+        animation: none;
+    }
+}
+`,
+    // The border is the only sign an empty checkbox exists; {form.field.border.color} was 1.26:1.
+    colorScheme: {
+        light: {
+            root: {
+                borderColor: '{surface.400}',
+                hoverBorderColor: '{surface.500}'
+            }
+        },
+        dark: {
+            root: {
+                borderColor: 'rgba(255, 255, 255, 0.3)',
+                hoverBorderColor: 'rgba(255, 255, 255, 0.45)'
+            }
+        }
     }
 } satisfies CheckboxDesignTokens) as CheckboxDesignTokens;

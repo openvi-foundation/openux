@@ -9,6 +9,8 @@ export default definePreset<Record<string, unknown>>(aura, {
     css: `
 .p-toolbar {
     box-shadow: dt('form.field.shadow');
+    font-size: 0.875rem;
+    line-height: 1.25rem;
 }
 `
 } satisfies ToolbarDesignTokens) as ToolbarDesignTokens;

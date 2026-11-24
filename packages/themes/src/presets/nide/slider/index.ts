@@ -46,8 +46,30 @@ export default definePreset<Record<string, unknown>>(aura, {
         }
     },
     css: `
+/* Half strength on hover, so keyboard focus (full ring) still reads differently from the pointer. */
 .p-slider:not(.p-disabled) .p-slider-handle:hover {
-    box-shadow: 0 0 0 4px dt('focus.ring.color');
+    box-shadow: 0 0 0 4px color-mix(in srgb, dt('focus.ring.color'), transparent 50%);
+}
+
+/* The handle grows a little while it is dragged. */
+.p-slider-handle {
+    transition:
+        background dt('slider.transition.duration'),
+        color dt('slider.transition.duration'),
+        border-color dt('slider.transition.duration'),
+        box-shadow dt('slider.transition.duration'),
+        outline-color dt('slider.transition.duration'),
+        transform 150ms;
+}
+
+.p-slider:not(.p-disabled) .p-slider-handle:active {
+    transform: scale(1.15);
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .p-slider-handle {
+        transition: none;
+    }
 }
 `
 } satisfies SliderDesignTokens) as SliderDesignTokens;
