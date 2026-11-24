@@ -8,6 +8,37 @@ Each `@openuxkit/*` package is versioned and released on its own, so every entry
 
 ## [Unreleased]
 
+## [@openuxkit/themes 1.3.0] - 2026-11-24
+
+Nide preset only. Other presets are unchanged.
+
+### Added
+
+- `nideBrand(color)` in `@openuxkit/themes/nide` builds Nide with a brand colour as primary, e.g. `nideBrand('indigo')`.
+- Tabs: the active tab background slides between tabs.
+- Small animations for Checkbox, ToggleSwitch and Slider, and faster overlay open/close. All respect `prefers-reduced-motion`.
+
+### Changed
+
+- Darker focus ring that meets 3:1 contrast.
+- 14px text in components that were still at 16px, such as Card, Panel, Dialog, Tree and Chip.
+- Clearer checkbox and radio borders, hover borders on form fields, tinted messages.
+- Smaller Chip, better title line height, and a lighter look for ColorPicker, BlockUI, Dock, FileUpload, OrderList and PickList.
+- Stepper and Steps show completed steps; Terminal uses a monospace font; Inplace text has a dashed underline.
+- Options, menu items and table rows react to hover without delay.
+- Components Nide does not override fall back to Aura.
+
+### Fixed
+
+- DataTable hover was invisible on striped rows.
+- All Toast types looked the same.
+- The selected option looked the same as the hovered one in Listbox, Select and Tree.
+- Danger Button and Tag changed colour with the background in dark mode.
+- AvatarGroup cut off initials.
+- ToggleSwitch height, ProgressBar height without a label, filled placeholder contrast, DatePicker weekday size, and Slider hover looking like focus.
+
+## [@openuxkit/themes 1.2.0 and @openuxkit/mcp 1.1.0] - 2026-10-29
+
 ### Added
 
 - `@openuxkit/themes`: Nide, a fifth preset built on Aura's tokens. A neutral palette with a near-black primary (near-white in dark mode), hairline borders, soft 3px focus rings, segmented Tabs and SelectButton, card-style toasts and bordered messages. Controls are compact: 14px text in 36px buttons and fields at a 16px root. Import it from `@openuxkit/themes/nide`, or load `umd/nide.js` as `OpenUXKit.Themes.Nide`. It moves here from OpenVue, which re-exports it from `@openvue/themes/nide`.
