@@ -27,21 +27,28 @@ export default definePreset<Record<string, unknown>>(aura, {
             size: '0.875rem'
         }
     },
+    // The check mark pops in when the user checks the box: the icon is inserted then, and @starting-style
+    // only applies to a freshly inserted element. It is limited to a hovered or keyboard-focused checkbox,
+    // so boxes that render already checked (page load, a DataTable page change) do not animate, and
+    // hovering or tabbing onto a checked box does not replay it.
     css: `
-.p-checkbox-checked .p-checkbox-icon {
-    animation: nide-check-pop 180ms cubic-bezier(0.16, 1, 0.3, 1);
+.p-checkbox:not(.p-disabled):is(:hover, :has(.p-checkbox-input:focus-visible)) .p-checkbox-icon {
+    transition:
+        transform 180ms cubic-bezier(0.16, 1, 0.3, 1),
+        opacity 180ms cubic-bezier(0.16, 1, 0.3, 1),
+        color dt('checkbox.transition.duration');
 }
 
-@keyframes nide-check-pop {
-    from {
+@starting-style {
+    .p-checkbox:not(.p-disabled):is(:hover, :has(.p-checkbox-input:focus-visible)) .p-checkbox-icon {
         transform: scale(0.4);
         opacity: 0;
     }
 }
 
 @media (prefers-reduced-motion: reduce) {
-    .p-checkbox-checked .p-checkbox-icon {
-        animation: none;
+    .p-checkbox:not(.p-disabled):is(:hover, :has(.p-checkbox-input:focus-visible)) .p-checkbox-icon {
+        transition: none;
     }
 }
 `,
