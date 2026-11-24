@@ -5,7 +5,8 @@ import type { ToggleSwitchDesignTokens } from '@openuxkit/themes/types/toggleswi
 export default definePreset<Record<string, unknown>>(aura, {
     root: {
         width: '2rem',
-        height: '1.15rem',
+        // 18px: a 16px handle + 1px gap on every side. 1.15rem (18.4px) left the handle off the pixel grid.
+        height: '1.125rem',
         borderRadius: '9999px',
         gap: '1px',
         slideDuration: '0.15s'
@@ -13,6 +14,26 @@ export default definePreset<Record<string, unknown>>(aura, {
     handle: {
         size: '1rem'
     },
+    // The handle stretches while pressed, like a native switch, and keeps its far edge in place when checked.
+    css: `
+.p-toggleswitch-handle {
+    transition-property: background, color, inset-inline-start, width, box-shadow;
+}
+
+.p-toggleswitch:not(.p-disabled):active .p-toggleswitch-handle {
+    width: calc(dt('toggleswitch.handle.size') + 4px);
+}
+
+.p-toggleswitch-checked:not(.p-disabled):active .p-toggleswitch-handle {
+    inset-inline-start: calc(dt('toggleswitch.width') - dt('toggleswitch.handle.size') - 4px - dt('toggleswitch.gap'));
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .p-toggleswitch-handle {
+        transition: none;
+    }
+}
+`,
     colorScheme: {
         light: {
             root: {

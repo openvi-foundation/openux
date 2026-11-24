@@ -50,6 +50,7 @@ export default definePreset<Record<string, unknown>>(aura, {
 
 .p-accordioncontent-content {
     font-size: 0.875rem;
+    line-height: 1.4286;
 }
 `
 } satisfies AccordionDesignTokens) as AccordionDesignTokens;

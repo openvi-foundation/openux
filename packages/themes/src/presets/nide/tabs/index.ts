@@ -30,11 +30,11 @@ export default definePreset<Record<string, unknown>>(aura, {
         background: '{tabs.tablist.background}',
         width: '2rem'
     },
-    // Tabs positions the bar from script, so it stays in the DOM at zero height.
+    // TabList positions the bar from script on every change, so it becomes the active pill and slides
+    // between tabs. The tabs sit above it with a transparent active background.
     activeBar: {
-        height: '0',
-        bottom: '0',
-        background: 'transparent'
+        height: 'calc(100% - 6px)',
+        bottom: '3px'
     },
     colorScheme: {
         light: {
@@ -44,7 +44,10 @@ export default definePreset<Record<string, unknown>>(aura, {
             tab: {
                 background: 'transparent',
                 hoverBackground: 'transparent',
-                activeBackground: '{surface.0}'
+                activeBackground: 'transparent'
+            },
+            activeBar: {
+                background: '{surface.0}'
             },
             navButton: {
                 shadow: '0px 0px 10px 50px color-mix(in srgb, {surface.100}, transparent 40%)'
@@ -57,8 +60,11 @@ export default definePreset<Record<string, unknown>>(aura, {
             tab: {
                 background: 'transparent',
                 hoverBackground: 'transparent',
-                activeBackground: 'color-mix(in srgb, {surface.800}, {surface.0} 5%)',
+                activeBackground: 'transparent',
                 activeBorderColor: 'rgba(255, 255, 255, 0.15)'
+            },
+            activeBar: {
+                background: 'color-mix(in srgb, {surface.800}, {surface.0} 5%)'
             },
             navButton: {
                 shadow: '0px 0px 10px 50px color-mix(in srgb, {surface.800}, transparent 40%)'
@@ -88,14 +94,27 @@ export default definePreset<Record<string, unknown>>(aura, {
 }
 
 .p-tab {
+    position: relative;
+    z-index: 2;
     flex-grow: 1;
     border-radius: dt('border.radius.md');
     font-size: 0.875rem;
     line-height: 1.25rem;
 }
 
-.p-tab-active {
+.p-tablist-active-bar {
+    border-radius: dt('border.radius.md');
     box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1);
+    transition:
+        inset-inline-start 250ms cubic-bezier(0.16, 1, 0.3, 1),
+        left 250ms cubic-bezier(0.16, 1, 0.3, 1),
+        width 250ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .p-tablist-active-bar {
+        transition: none;
+    }
 }
 `
 } satisfies TabsDesignTokens) as TabsDesignTokens;

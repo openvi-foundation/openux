@@ -63,8 +63,9 @@ export default definePreset<Record<string, unknown>>(aura, {
                 background: '{amber.400}',
                 color: '{amber.950}'
             },
+            // Opaque like Badge, so the colour does not change with the surface underneath.
             danger: {
-                background: 'color-mix(in srgb, {red.400}, transparent 40%)',
+                background: 'color-mix(in srgb, {red.400}, {surface.950} 40%)',
                 color: '#ffffff'
             },
             contrast: {

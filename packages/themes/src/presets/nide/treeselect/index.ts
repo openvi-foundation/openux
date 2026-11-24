@@ -1,9 +1,10 @@
 import { definePreset } from '@openuxkit/styled';
 import aura from '@openuxkit/themes/aura/treeselect';
+import { overlayMotion } from '../motion';
 import type { TreeSelectDesignTokens } from '@openuxkit/themes/types/treeselect';
 
 export default definePreset<Record<string, unknown>>(aura, {
-    css: `
+    css: `${overlayMotion}
 .p-treeselect-label {
     line-height: 1.25rem;
 }

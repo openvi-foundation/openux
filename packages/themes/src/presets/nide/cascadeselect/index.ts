@@ -1,9 +1,10 @@
 import { definePreset } from '@openuxkit/styled';
 import aura from '@openuxkit/themes/aura/cascadeselect';
+import { instantHover, overlayMotion } from '../motion';
 import type { CascadeSelectDesignTokens } from '@openuxkit/themes/types/cascadeselect';
 
 export default definePreset<Record<string, unknown>>(aura, {
-    css: `
+    css: `${overlayMotion}${instantHover('div.p-cascadeselect-option-content')}
 .p-cascadeselect-label {
     line-height: 1.25rem;
 }

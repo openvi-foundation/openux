@@ -13,7 +13,8 @@ export default definePreset<Record<string, unknown>>(aura, {
         fontWeight: '500'
     },
     css: `
-.p-progressbar.p-progressbar-indeterminate {
+.p-progressbar.p-progressbar-indeterminate,
+.p-progressbar-determinate:not(:has(.p-progressbar-label)) {
     height: calc(dt('progressbar.height') / 2);
 }
 `
