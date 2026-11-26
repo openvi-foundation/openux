@@ -8,6 +8,14 @@ Each `@openuxkit/*` package is versioned and released on its own, so every entry
 
 ## [Unreleased]
 
+## [@openuxkit/themes 1.3.1] - 2026-11-26
+
+Nide preset only.
+
+### Fixed
+
+- The light error Message text fell to 4.47:1 contrast on its new tinted background. It now uses `{red.700}` (5.97:1).
+
 ## [@openuxkit/themes 1.3.0] - 2026-11-24
 
 Nide preset only. Other presets are unchanged.

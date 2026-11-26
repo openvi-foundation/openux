@@ -82,7 +82,7 @@ export default definePreset<Record<string, unknown>>(aura, {
             info: severity('{blue.600}', 'light'),
             success: severity('{green.700}', 'light'),
             warn: severity('{amber.700}', 'light'),
-            error: severity('{red.600}', 'light'),
+            error: severity('{red.700}', 'light'),
             secondary: severity('{text.color}', 'light', false)
         },
         dark: {
